@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <!--说明：与飞凌嵌入式硬件DI、DO、CPU通讯,使用规约网络canbus-->
+    <Record id="1" name="基本配置">
+        <Field id="3" name="远程对端CANBUS地址（目的地址）" value="30" type="INT" />
+        <Field id="10" name="本地CANBUS地址（源地址）" value="23" type="INT" />
+        <Field id="11" name="can端口号" value="0" type="STRING" />
+        <Field id="12" name="波特率" value="125k" type="INT" />
+    </Record>
+    <Record id="2" name="召唤配置">
+        <Field id="1" name="遥测响应类型" value="自定义ANA24-F浮点型" type="ENUM" />
+        <Field id="3" name="所有起始寄存器地址均为" value="0" type="INT" />
+        <Field id="6" name="读数据间隔周期" value="2" type="INT" />
+        <Field id="7" name="每一个周期停止(毫秒)" value="100" type="INT" />
+        <Field id="9" name="读DT功能码" value="18" type="INT" />
+        <Field id="10" name="读DI功能码" value="12" type="INT" />
+        <Field id="11" name="读DO功能码" value="13" type="INT" />
+        <Field id="12" name="同步码id11" value="123" type="INT" />
+        <Field id="13" name="整形遥测上送字节顺序" value="2" type="ENUM">
+            <Option id="1" name="从高到低" />
+            <Option id="2" name="从低到高" />
+        </Field>
+    </Record>
+    <Record id="3" name="控制配置">
+        <Field id="1" name="写DO开出功能码" value="5" type="ENUM" />
+        <Field id="2" name="写DT测量值功能码" value="1" type="ENUM" />
+    </Record>
+    <Record id="4" name="读遥测" count="1">
+        <!--id 编号,begin 寄存器起始地址十进制,count 寄存器个数,type,类型,1四字节FLOAT,2两字节 INT类型 -->
+        <Field id="1" descr="" device="1" begin="0" count="16" type="1" />
+    </Record>
+    <Record id="5" name="读遥信" count="1">
+        <!--id 编号,begin 寄存器起始地址十进制,count 线圈个数,type标准类型-->
+        <Field id="1" descr="" device="1" begin="0" count="8" type="1" />
+    </Record>
+    <Record id="100" name="备用">
+        <Field id="1" name="备用" value="备用" type="INT" />
+    </Record>
+</Setting>

@@ -1,0 +1,2 @@
+ID32,tTime,ulDayNormal,ulDayHigh,ulDayLow,ulDayStop,fDayHiRatio,fDayLowRatio,fDayNorRatio,ulMonthNormal,ulMonthHigh,ulMonthLow,ulMonthStop,fMonthHiRatio,fMonthLowRatio,fMonthNorRatio,ulYearNormal,ulYearHigh,ulYearLow,ulYearStop,fYearHiRatio,fYearLowRatio,fYearNorRatio,iHighL,iLowL,iStatTime,iOverMaxNum,iTimeSpan,iOverNum,iOverMaxTime,iOverTime,iOverNumClass,iOverTimeClass,iDelayMax,iDelayTime,fhourMaxV,fhourMinV,fhourAveV
+

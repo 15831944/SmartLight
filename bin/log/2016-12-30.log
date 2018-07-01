@@ -1,0 +1,216 @@
+13:26:45 lookup begin ,lib name=CommModbusRtuSlv.dll
+
+13:26:45 load begin 
+
+13:36:37 lookup begin ,lib name=ModbusRtuSlv.dll
+
+13:36:37 load begin 
+
+13:36:37 ERROR:LIB: unable to load library: ModbusRtuSlv.dll info: ¤ûåîzÿÿÿÿ°ûåÇpûåım!ıå¼ûå
+
+13:36:37 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+13:38:35 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+13:38:35 load begin 
+
+13:55:22 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+13:55:22 load begin 
+
+13:55:22 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: ˆöGîz?ÿÿÿÿ”öGÇ=TöGl÷œ?ø÷G öG
+
+13:55:22 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+13:55:34 lookup begin ,lib name=CommModbusStd.dll
+
+13:55:34 load begin 
+
+13:55:34 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+13:55:34 load begin 
+
+13:58:01 lookup begin ,lib name=ModbusStd.dll
+
+13:58:01 load begin 
+
+13:58:01 ERROR:LIB: unable to load library: ModbusStd.dll info: èôêîz×
+
+13:58:01 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+13:58:01 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+13:58:01 load begin 
+
+13:58:01 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: èôêîz×
+
+13:58:01 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+13:59:05 lookup begin ,lib name=CommModbusStd.dll
+
+13:59:05 load begin 
+
+13:59:05 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+13:59:05 load begin 
+
+14:04:21 lookup begin ,lib name=ModbusStd.dll
+
+14:04:21 load begin 
+
+14:04:21 ERROR:LIB: unable to load library: ModbusStd.dll info: ¤öÓîz–
+
+14:04:21 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:04:21 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+14:04:21 load begin 
+
+14:04:21 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: ¤öÓîz–
+
+14:04:21 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:05:02 lookup begin ,lib name=CommModbusStd.dll
+
+14:05:02 load begin 
+
+14:05:02 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+14:05:02 load begin 
+
+14:06:29 lookup begin ,lib name=CommModbusStd.dll
+
+14:06:29 load begin 
+
+14:06:29 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+14:06:29 load begin 
+
+14:12:45 lookup begin ,lib name=ModbusStd.dll
+
+14:12:45 load begin 
+
+14:12:45 ERROR:LIB: unable to load library: ModbusStd.dll info: ,ú\îz-ÿÿÿÿ8ú\Ç+øù\£0¿sœû\Dú\
+
+14:12:45 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:12:45 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+14:12:45 load begin 
+
+14:12:45 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: ,ú\îz-ÿÿÿÿ8ú\Ç+øù\£0¿sœû\Dú\
+
+14:12:45 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:12:48 lookup begin ,lib name=ModbusStd.dll
+
+14:12:48 load begin 
+
+14:12:48 ERROR:LIB: unable to load library: ModbusStd.dll info: Pøîz-ÿÿÿÿ\øÇ+øB?Àùhø
+
+14:12:48 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:12:48 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+14:12:48 load begin 
+
+14:12:48 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: Pøîz-ÿÿÿÿ\øÇ+øB?Àùhø
+
+14:12:48 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:13:17 lookup begin ,lib name=CommModbusStd.dll
+
+14:13:17 load begin 
+
+14:13:17 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+14:13:17 load begin 
+
+14:17:28 lookup begin ,lib name=ModbusStd.dll
+
+14:17:28 load begin 
+
+14:17:28 ERROR:LIB: unable to load library: ModbusStd.dll info: Œú›îz:ÿÿÿÿ˜ú›Ç8Xú›Û÷ï+üû›¤ú›
+
+14:17:28 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:17:28 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+14:17:28 load begin 
+
+14:17:28 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: Œú›îz:ÿÿÿÿ˜ú›Ç8Xú›Û÷ï+üû›¤ú›
+
+14:17:28 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:17:47 lookup begin ,lib name=CommModbusStd.dll
+
+14:17:47 load begin 
+
+14:17:47 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+14:17:47 load begin 
+
+14:23:26 lookup begin ,lib name=ModbusStd.dll
+
+14:23:26 load begin 
+
+14:23:26 ERROR:LIB: unable to load library: ModbusStd.dll info: Ğ÷Lîz	
+
+14:23:26 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:23:26 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+14:23:26 load begin 
+
+14:23:26 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: Ğ÷Lîz	
+
+14:23:26 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:23:39 lookup begin ,lib name=CommModbusStd.dll
+
+14:23:39 load begin 
+
+14:23:39 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+14:23:39 load begin 
+
+16:30:26 lookup begin ,lib name=ModbusStd.dll
+
+16:30:27 load begin 
+
+16:30:27 ERROR:LIB: unable to load library: ModbusStd.dll info: (öeîzAÿÿÿÿ4öeÇ?ôõeYu¥q˜÷e@öe
+
+16:30:27 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+16:30:27 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+16:30:27 load begin 
+
+16:30:27 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: (öeîzAÿÿÿÿ4öeÇ?ôõeYu¥q˜÷e@öe
+
+16:30:27 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+16:30:51 lookup begin ,lib name=CommModbusStd.dll
+
+16:30:51 load begin 
+
+16:30:51 lookup begin ,lib name=CommModbusTcpServerStand.dll
+
+16:30:51 load begin 
+
+17:35:26 lookup begin ,lib name=ModbusStd.dll
+
+17:35:26 load begin 
+
+17:35:26 ERROR:LIB: unable to load library: ModbusStd.dll info: ˜÷YîzÆ
+
+17:35:26 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+17:35:26 lookup begin ,lib name=ModbusTcpServerStand.dll
+
+17:35:26 load begin 
+
+17:35:26 ERROR:LIB: unable to load library: ModbusTcpServerStand.dll info: ˜÷YîzÆ
+
+17:35:26 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+

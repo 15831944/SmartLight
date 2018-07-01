@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}</ProjectGuid>
+    <RootNamespace>CommFrame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Include\commFrameInclude;..\..\scada\include;..\..\rtdb\include;..\..\rtdb\headfile;..\..\Include\tinyxmlInclude;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/nodefaultlib:libcd %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>RealDB.lib;ScadaProcess.lib;Log.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <TurnOffAssemblyGeneration>false</TurnOffAssemblyGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\Include\commFrameInclude;..\..\scada\include;..\..\rtdb\include;..\..\rtdb\headfile;..\..\Include\tinyxmlInclude;..\..\Include\filetran;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RealDB.lib;ScadaProcess.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\commFrameInclude\FEPFuncRtdb.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\FEPFuncUtil.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\funstruct.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_HttpLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_channelBase.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_CommFrameDef.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_dataManager.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_DdManager.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_frameAssistant.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_frameDefine.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_globalData.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_linkBase.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_protocolBase.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_reserveManager.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_reservethread.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_runingUnitDefine.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_runningUnit.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_serialLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_simpleThread.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_taskBase.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_taskManager.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpClientLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServDdThread.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServerLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServerListenThread.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServerRunningUnit.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServerTask.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_tcpServerUnitInfo.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_threadBase.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_udpClientLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\Q_udpServerLink.h" />
+    <ClInclude Include="..\..\Include\commFrameInclude\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommFrame.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

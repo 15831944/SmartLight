@@ -1,0 +1,6 @@
+ID32,strName,strKey,iType,iVal,iDigitID,tSnapTime,iQuality
+1,AGC投退信号,AgcOptionOn,,1,22,2015-8-6 11:21:49,
+2,AGC投入闭环控制,AgcCycleOn,,1,23,2015-8-6 11:21:49,
+3,AGC闭锁,TotalBlock,,0,24,2015-8-6 11:21:49,
+4,与采集装置通讯状态,PhvChannel,1,0,2,2015-8-6 11:21:49,
+

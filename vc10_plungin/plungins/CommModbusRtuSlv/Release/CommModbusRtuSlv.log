@@ -1,0 +1,31 @@
+﻿生成启动时间为 2017/12/12 11:31:08。
+     1>项目“F:\Gkpro\program\ldns\vc10\plungins\CommModbusRtuSlv\CommModbusRtuSlv.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\CommModbusRtuSlv.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+     1>项目“F:\Gkpro\program\ldns\vc10\plungins\CommModbusRtuSlv\CommModbusRtuSlv.vcxproj”(1)正在节点 2 上生成“F:\Gkpro\program\ldns\rtdb\RtdbDll\RtdbDll.vcxproj”(2:3) (GetResolvedLinkLibs 个目标)。
+     2>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1422,5): warning : The referenced project '..\..\win\tinyxml\tinyxml.vcxproj' does not exist.
+     2>已完成生成项目“F:\Gkpro\program\ldns\rtdb\RtdbDll\RtdbDll.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>项目“F:\Gkpro\program\ldns\vc10\plungins\CommModbusRtuSlv\CommModbusRtuSlv.vcxproj”(1)正在节点 1 上生成“F:\Gkpro\program\ldns\scada\ScadaAPI\ScadaAPI.vcxproj”(3:3) (GetResolvedLinkLibs 个目标)。
+     3>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1422,5): warning : The referenced project '..\..\win\tinyxml\tinyxml.vcxproj' does not exist.
+     3>已完成生成项目“F:\Gkpro\program\ldns\scada\ScadaAPI\ScadaAPI.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\CommModbusRtuSlv.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\bin\ CommFrame.lib RealDB.lib ScadaProcess.lib tinyxml.lib /MANIFEST /ManifestFile:"Release\CommModbusRtuSlv.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Gkpro\program\ldns\bin\CommModbusRtuSlv.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\CommModbusRtuSlv.lib" /MACHINE:X86 /DLL Release\CommModbusRtuSlv.res
+         Release\Q_protocolModbusRtuSlv.obj
+            正在创建库 ..\..\..\bin\CommModbusRtuSlv.lib 和对象 ..\..\..\bin\CommModbusRtuSlv.exp
+         正在生成代码
+         已完成代码的生成
+         CommModbusRtuSlv.vcxproj -> F:\Gkpro\program\ldns\vc10\plungins\CommModbusRtuSlv\..\..\..\bin\CommModbusRtuSlv.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\bin\CommModbusRtuSlv.dll;#2" /manifest Release\CommModbusRtuSlv.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\CommModbusRtuSlv.unsuccessfulbuild”。
+         正在对“Release\CommModbusRtuSlv.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Gkpro\program\ldns\vc10\plungins\CommModbusRtuSlv\CommModbusRtuSlv.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.76

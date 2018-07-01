@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Field ID32="1" iProcessID="23333" iType="1" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="2" iProcessID="2" iType="2" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="3" iProcessID="2900" iType="4" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:14:54" tActiveTime="2015-8-1 11:14:54" iHeart="0" />
+    <Field ID32="4" iProcessID="0" iType="8" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="5" iProcessID="0" iType="16" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="6" iProcessID="0" iType="32" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="7" iProcessID="9588" iType="64" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-6 10:53:7" tActiveTime="2015-8-6 10:53:7" iHeart="0" />
+    <Field ID32="8" iProcessID="0" iType="128" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="9" iProcessID="0" iType="256" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="10" iProcessID="0" iType="512" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-8-1 11:13:45" tActiveTime="2015-8-1 11:13:45" iHeart="0" />
+    <Field ID32="11" iProcessID="23548" iType="333" uNodeID="1" iMainWnd="0" iFlag="10" tStartTime="2015-11-7 13:11:18" tActiveTime="2015-11-7 13:11:18" iHeart="-858993460" />
+    <Field ID32="12" iProcessID="0" iType="1024" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+    <Field ID32="13" iProcessID="0" iType="2048" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+    <Field ID32="14" iProcessID="0" iType="4096" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+    <Field ID32="15" iProcessID="0" iType="8192" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+    <Field ID32="16" iProcessID="0" iType="16384" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+    <Field ID32="17" iProcessID="0" iType="32768" uNodeID="1" iMainWnd="0" iFlag="24" tStartTime="2015-11-3 16:18:47" tActiveTime="2015-11-3 16:18:47" iHeart="0" />
+</Setting>

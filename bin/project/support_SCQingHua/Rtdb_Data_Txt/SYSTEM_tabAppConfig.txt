@@ -1,0 +1,2 @@
+ID32,iProcessType,strKey,iValue,strValue
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="数据库配置">
+        <Field id="1" name="IP地址" value="192.168.60.141" type="STRING" />
+        <Field id="2" name="端口" value="3306" type="INT" />
+        <Field id="3" name="数据库" value="bwgk_fs" type="STRING" />
+        <Field id="4" name="用户名" value="bwgkuser" type="STRING" />
+        <Field id="5" name="密码" value="bwgkuser" type="STRING" />
+        <Field id="10" name="采集周期(秒)" value="10" type="INT" />
+    </Record>
+    <Record id="2" name="SQL配置">
+        <Field id="1" name="SQL1" value="" type="STRING" />
+        <Field id="2" name="SQL2" value="" type="STRING" />
+        <Field id="3" name="SQL3" value="" type="STRING" />
+        <Field id="4" name="SQL4" value="" type="STRING" />
+        <Field id="5" name="SQL5" value="" type="STRING" />
+        <Field id="6" name="SQL6" value="" type="STRING" />
+        <Field id="8" name="SQL8" value="" type="STRING" />
+        <Field id="9" name="SQL9" value="" type="STRING" />
+        <Field id="10" name="SQL10" value="" type="STRING" />
+        <Field id="11" name="SQL11" value="" type="STRING" />
+        <Field id="12" name="SQL12" value="" type="STRING" />
+        <Field id="13" name="SQL13" value="" type="STRING" />
+        <Field id="14" name="SQL14" value="" type="STRING" />
+        <Field id="15" name="SQL15" value="" type="STRING" />
+        <Field id="16" name="SQL16" value="" type="STRING" />
+        <Field id="17" name="SQL17" value="" type="STRING" />
+        <Field id="18" name="SQL18" value="" type="STRING" />
+        <Field id="19" name="SQL19" value="" type="STRING" />
+        <Field id="20" name="SQL20" value="" type="STRING" />
+        <Field id="21" name="SQL21" value="" type="STRING" />
+        <Field id="22" name="SQL22" value="" type="STRING" />
+        <Field id="23" name="SQL23" value="" type="STRING" />
+        <Field id="24" name="SQL24" value="" type="STRING" />
+        <Field id="25" name="SQL25" value="" type="STRING" />
+        <Field id="26" name="SQL26" value="" type="STRING" />
+        <Field id="27" name="SQL27" value="" type="STRING" />
+        <Field id="28" name="SQL28" value="" type="STRING" />
+        <Field id="29" name="SQL29" value="" type="STRING" />
+        <Field id="30" name="SQL30" value="" type="STRING" />
+        <Field id="31" name="SQL31" value="" type="STRING" />
+        <Field id="32" name="SQL32" value="" type="STRING" />
+        <Field id="33" name="SQL33" value="" type="STRING" />
+        <Field id="34" name="SQL34" value="" type="STRING" />
+        <Field id="35" name="SQL35" value="" type="STRING" />
+        <Field id="36" name="SQL36" value="" type="STRING" />
+        <Field id="37" name="SQL37" value="" type="STRING" />
+        <Field id="38" name="SQL38" value="" type="STRING" />
+        <Field id="39" name="SQL39" value="" type="STRING" />
+        <Field id="40" name="SQL40" value="" type="STRING" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+</Setting>

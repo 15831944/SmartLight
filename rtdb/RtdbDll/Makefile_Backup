@@ -1,0 +1,49 @@
+to_srcdir:=../../../
+include $(to_srcdir)make.rules
+
+DEBUG=-g
+CFLAGS =$(OPTIMIZE_FLAG) $(BYTE_PRECISION_DEF) $(OS_DEF) -D_TS_ERRNO -D_THREAD_SAFE -D_REENTRANT -Wall -I../../../Include/tinyxmlInclude \
+-I. -I../../support/include -I../../support/headfile -fPIC
+LIBS = -L../../../lib -L../../../bin -lnsl -lpthread -ltinyxml $(EXTRA_LIBS)
+
+
+#LFLAGS = -shared -lnsl -lpthread -g
+
+OBJS = \
+	ShareMemory.o \
+	MutexEx.o \
+	EventEx.o \
+	ThreadMutex.o \
+	ThreadEvent.o \
+	DataValue.o \
+	SocketEx.o \
+	Formula.o \
+	DBField.o \
+	DBTable.o \
+	DataBase.o \
+	MultiDataBase.o \
+	SysManager.o \
+	SystemTable.o \
+	ProcessEvent.o \
+	CmdProcess.o \
+	CmdToRtServer.o \
+	RtdbDefFile.o \
+	MsgDealer.o \
+	TcpListener.o \
+	TcpReceiver.o \
+	TcpWorker.o \
+	UdpWorker.o \
+	MUdpWorker.o \
+	gFunction.o \
+	ID32Base.o \
+	RtdbFile.o 
+
+RealDB.so: $(OBJS)
+	$(C++) $(LIBS) $(CFLAGS) -o ../../../bin/libRealDB.so $(OBJS) 
+
+# Compile source files into .o's
+%.o: %.cpp
+	$(C++) -c $(CFLAGS) -o $@ $<
+
+clean:
+	rm -f $(OBJS) 

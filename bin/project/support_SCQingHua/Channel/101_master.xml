@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="基本参数">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="主站" />
+            <Option id="2" name="子站" />
+        </Field>
+        <Field id="2" name="本端IP地址" value="0.0.0.0" type="STRING" />
+        <Field id="3" name="端口号" value="2404" type="INT" />
+        <Field id="4" name="对端01通道的IP地址" value="39.107.67.255" type="STRING" />
+        <Field id="5" name="对端01通道的端口号" value="4002" type="INT" />
+        <Field id="6" name="对端02通道的IP地址" value="" type="STRING" />
+        <Field id="7" name="对端02通道的端口号" value="" type="INT" />
+        <Field id="8" name="对端03通道的IP地址" value="" type="STRING" />
+        <Field id="9" name="对端03通道的端口号" value="" type="INT" />
+        <Field id="10" name="对端04通道的IP地址" value="" type="STRING" />
+        <Field id="11" name="对端04通道的端口号" value="" type="INT" />
+        <Field id="20" name="线程读写周期(毫秒)" value="1000" type="INT" />
+        <Field id="122" name="应用层地址长度" value="2" type="INT" />
+        <Field id="123" name="应用层地址" value="56" type="INT" />
+        <Field id="124" name="传输原因长度" value="2" type="INT" />
+        <Field id="125" name="报文最大长度" value="255" type="INT" />
+     
+        <Field id="129" name="整型遥测上送字节顺序" value="1" type="ENUM">
+            <Option id="1" name="从低到高" />
+            <Option id="2" name="从高到低" />
+        </Field>
+        <Field id="130" name="短浮点遥测上送字节顺序" value="2" type="ENUM">
+            <Option id="1" name="从低到高" />
+            <Option id="2" name="从高到低" />
+        </Field>
+        <Field id="131" name="通信中断判断时限(秒)" value="30" type="INT" />
+        <Field id="132" name="超时时间T0应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="发出报文超时T0无确认则关闭TCP连接" />
+        </Field>
+        <Field id="133" name="超时时间T1值(秒)" value="15" type="INT" />
+        <Field id="134" name="超时时间T2应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="无接收超时T2则启动S帧发送" />
+        </Field>
+        <Field id="135" name="超时时间T2值(秒)" value="2" type="INT" />
+        <Field id="136" name="超时时间T3应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="无数据活动超时T3则启动U测试帧发送" />
+        </Field>
+        <Field id="137" name="超时时间T3值(秒)" value="20" type="INT" />
+        <Field id="138" name="I帧发送策略" value="2" type="ENUM">
+            <Option id="1" name="I帧发送不受K值影响" />
+            <Option id="2" name="发出的I帧未被确认数目大于等于K值即停止发送" />
+        </Field>
+        <Field id="139" name="K值" value="12" type="INT" />
+        <Field id="140" name="I帧接收策略" value="1" type="ENUM">
+            <Option id="1" name="收到I帧数目达到W值之前进行确认" />
+            <Option id="1" name="收到I帧后立即确认" />
+        </Field>
+        <Field id="141" name="W值" value="8" type="INT" />
+        <Field id="142" name="I帧最大编号" value="65534" type="INT" />
+        <Field id="143" name="是否发送S帧" value="1" type="INT" />
+        <Field id="144" name="关闭发送启动帧" value="0" type="INT" />
+        <Field id="145" name="关闭发送总召唤" value="0" type="INT" />
+        <Field id="146" name="启用变位数据上送" value="1" type="INT" />
+    </Record>
+    <Record id="2" name="站召唤">
+        <Field id="1" name="总召唤数据响应顺序" value="1" type="ENUM">
+            <Option id="1" name="遥信、遥测、遥步" />
+            <Option id="2" name="遥信、遥步、遥测" />
+            <Option id="3" name="遥测、遥信、遥步" />
+            <Option id="4" name="遥测、遥步、遥信" />
+            <Option id="5" name="遥步、遥信、遥测" />
+            <Option id="6" name="遥步、遥测、遥信" />
+        </Field>
+        <Field id="2" name="总召唤遥测ASDU类型" value="3" type="ENUM">
+            <Option id="1" name="ASDU9、规一化值、无时标、有品质" />
+            <Option id="2" name="ASDU11、标度化值、无时标" />
+            <Option id="3" name="ASDU13、短浮点数、无时标" />
+            <Option id="4" name="ASDU21、规一化值、无时标、无品质" />
+        </Field>
+        <Field id="3" name="总召唤遥信ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU1、单点/ASDU3、双点" />
+            <Option id="2" name="ASDU20、带变位检出的成组单点" />
+            <Option id="3" name="ASDU20、带变位检出的成组单点" />
+        </Field>
+        <Field id="4" name="总召唤遥步ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU5、步位置" />
+        </Field>
+        <Field id="5" name="总召唤遥信每帧封装遥信个数" value="100" type="INT" />
+        <Field id="6" name="总召唤遥测每帧封装遥测个数" value="30" type="INT" />
+        <Field id="7" name="总召唤遥步每帧封装遥步个数" value="50" type="INT" />
+        <Field id="8" name="总召间隔次数" value="30" type="INT" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>   
+</Setting>

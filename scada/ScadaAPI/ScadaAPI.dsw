@@ -1,0 +1,128 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# 警告: 不能编辑或删除该工作区文件！
+
+###############################################################################
+
+Project: "DataServer"="..\DataServer-Qt\DataServer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ElementStatus
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name fepdemo
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ScadaAPI
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ElementStatus"=..\ElementStatus\ElementStatus.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ScadaAPI
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "FepApp"=..\..\..\..\..\fep\fep\fep\src\FepApp\FepApp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Log"=..\..\support\Log\Log.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RealDBJNI"=..\..\support\RealDBJNI\RealDBJNI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RtdbDll"=..\..\support\RtdbDll\RtdbDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ScadaAPI"=.\ScadaAPI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "fepdemo"=..\fepdemo\fepdemo.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ScadaAPI
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

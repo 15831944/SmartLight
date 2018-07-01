@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/3/12 10:36:50。
+     1>项目“F:\Gkpro\program\ldns\vc10\Utilities\Utilities.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CFuncUtil.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\CFuncUtil.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin\ RealDB.lib /MANIFEST /ManifestFile:"Debug\CFuncUtil.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Gkpro\program\ldns\bin\CFuncUtil.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\CFuncUtil.lib" /MACHINE:X86 /DLL Debug\CFuncUtil.dll.embed.manifest.res
+         Debug\CBrowseDir.obj
+         Debug\CFuncUtil.obj
+         Debug\DelteLog.obj
+         Debug\StdAfx.obj
+         Debug\TimerTask.obj
+            正在创建库 ..\..\bin\CFuncUtil.lib 和对象 ..\..\bin\CFuncUtil.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CFuncUtil.dll.embed.manifest" /manifest Debug\CFuncUtil.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Utilities.vcxproj -> F:\Gkpro\program\ldns\vc10\Utilities\..\..\bin\CFuncUtil.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CFuncUtil.unsuccessfulbuild”。
+         正在对“Debug\CFuncUtil.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Gkpro\program\ldns\vc10\Utilities\Utilities.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.65

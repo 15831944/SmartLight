@@ -1,0 +1,5 @@
+ID32,strName,fValP,fDisPower,fcurCap,fAdMaxLimit,fAdMinLimit,iGroup,iEnabled,iStatus,iChannelStatus,iUpLock,iDownLock,tSnapTime,iType,iFlag,fValUp,fAdZone,iModifyAdd,iModifySub,iAdTimesMax,iPowerAlgID,iUpValAlgID,iStatusDigitID,iChannelDigitID,iChannelID,iDevice,iYtNo,iYkNo,fFactor,iQuality,iDisPower
+1,#1Äæ±äÆ÷,0.000000,0.000000,100,100,10,1,1,1,1,0,0,2016-5-24 12:00:00,1,0,0.000000,0,0,20,0,68,66,69,2,2,1,12316,12314,1,0,19
+2,#2Äæ±äÆ÷,0.000000,0.000000,500,100,10,1,1,1,1,0,0,2016-5-24 12:00:00,1,0,0.000000,0,0,20,0,76,74,77,2,2,1,12336,12334,1,0,20
+3,#3Äæ±äÆ÷,0.000000,0.000000,500,100,10,1,1,1,1,0,0,2016-5-24 12:00:00,1,0,0.000000,0,0,20,0,84,82,85,2,2,1,12356,12354,1,0,21
+

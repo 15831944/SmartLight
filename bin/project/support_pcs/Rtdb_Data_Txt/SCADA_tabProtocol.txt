@@ -1,0 +1,16 @@
+ID32,strName,strDLLName,strClassName,iProtocolType,iProtocolSubType,strTemplate
+1,3E-500内部Can总线规约,CommCanbusForlinx,CommCanbusForlinx,1,0,
+2,IEC104主站规约,CommIEC104,CommIEC104Master,1,0,
+3,IEC104子站,CommIEC104,CommIEC104Slave,3,0,
+4,Modbus主站,CommModbusStd,CommModbusStd,1,0,
+5,Modbus子站,CommModbusTcpServerStand,CommModbusTcpServerStand,3,0,
+6,ModbusRtu主站,CommModbusRtuStd,Q_protocolModbusRtuStd,1,0,
+7,ModbusRtu子站,CommModbusRtuSlv,Q_protocolModbusRtuSlv,2,0,ModbusRtuSlv.xml
+8,Modbus计划曲线,CommModbusTcpServerPlanCurve,Q_protocolModbusTcpServerPlanCurve,2,0,ModbusTcpServerPlanCurve.xml
+9,与东润调度主站平台MySQL数据库接口规约,CommMySQLFoShan,Q_protocolMySQLFoShan,1,0,MySQLFoShan.xml
+10,IEC101串口上传规约,Comm101Slave,,2,0,
+11,与东润调度主站平台Redis数据库接口规约,CommRedis,,1,0,
+12,IEC104子站规约通道复用占位用,CommIEC104,CommIEC104Slave,2,1,
+13,IEC103规约,CommIEC103,CommIEC103Slave,2,0,
+14,IEC103规约独立子通道,CommIEC103,CommIEC103Slave,2,2,
+

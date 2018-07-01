@@ -1,0 +1,44 @@
+# make file for ScadaProcess program, created by wiener 2004-09-27
+
+CC=g++
+
+# for Sun
+#LFLAGS = -G -lsocket -lpthread -lrt -g
+
+# for IBM
+LFLAGS = -shared -lnsl -lpthread -g
+
+# for Alpha
+# LFLAGS = -shared -lpthread -g
+
+CSC2000_SUPPORT=$(CSC2000)/src/CProject/support
+CSC2000_SCADA=$(CSC2000)/src/CProject/scada
+CSC2000_LIB=$(CSC2000)/lib
+
+LIBRARY = -L$(CSC2000_LIB)
+
+INCLUDE = -DUNIX_ENV -I.\
+	   -I$(CSC2000_SUPPORT)/include \
+	   -I$(CSC2000_SUPPORT)/headfile \
+	   -I$(CSC2000_SCADA)/include \
+	   -D_REENTRANT \
+	   -D_THREAD_SAFE \
+
+OBJS = \
+	FaultMsg.o \
+	ScadaAPIs.o \
+	ScadaProcess.o \
+	Task.o \
+	UpdateFields.o \
+
+$(CSC2000_LIB)/ScadaProcess.so: $(OBJS)
+	$(CC) $(LIBRARY) $(CINCLUDE) -o $(CSC2000_LIB)/libScadaProcess.so $(OBJS) $(LFLAGS)
+
+# Compile source files into .o's
+%.o: %.cpp
+	$(CC) -c $(CFLAGS) $(INCLUDE) -o $@ $<
+
+
+###### clean target: deletes generated files ######
+clean:
+	rm -f $(OBJS) 

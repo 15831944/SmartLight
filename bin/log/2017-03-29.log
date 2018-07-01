@@ -1,0 +1,48 @@
+16:08:57 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:08:57 load begin 
+
+16:08:57 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: ¥˘!
+
+16:08:57 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+16:13:49 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:13:49 load begin 
+
+16:13:49 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: H¯
+
+16:13:49 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+16:15:20 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:15:20 load begin 
+
+16:15:20 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: ê¯
+
+16:15:20 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+16:15:54 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:15:54 load begin 
+
+16:15:54 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: xˆ"
+
+16:15:54 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+16:20:58 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:20:58 load begin 
+
+16:20:58 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: §ˆ%
+
+16:21:04 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+16:22:33 lookup begin ,lib name=CommModbusRtuStd.dll
+
+16:22:33 load begin 
+
+16:22:33 ERROR:LIB: unable to load library: CommModbusRtuStd.dll info: ˘1
+
+16:22:34 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+

@@ -1,0 +1,18 @@
+arr_program=$(sed -n 1p ldns-program)
+strp=$(sed -n 2p ldns-program)
+	for program in ${arr_program[@]}
+	do
+	echo $strp | sudo -E -S ./$program > /dev/null 2>&1 & 
+	sleep 5
+	if [ "$program" == "RtServer" ] ; then
+		echo "waiting for start $program"
+                sleep 25
+        fi
+	echo "start $program"
+	done
+exit
+
+
+
+
+

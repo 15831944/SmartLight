@@ -1,0 +1,13 @@
+ID32,strName,strKey,iVal,iDigitID,tSnapTime
+1,系统离网,OffNet,0,25,0-0-0 0:0:0
+2,PCS故障,PcsFault,0,26,0-0-0 0:0:0
+3,PCS故障负荷超载,PcsFaultOverLoad,0,27,0-0-0 0:0:0
+4,母线电压过高,BusVoltHigh,0,28,0-0-0 0:0:0
+5,负荷超载,OverLoad,0,29,0-0-0 0:0:0
+6,储能电量低负荷超载,SocLowOverLoad,0,30,0-0-0 0:0:0
+7,PCS执行开机命令不响应故障,PcsFaultStartNoExec,0,31,0-0-0 0:0:0
+8,采集数据通信中断,PhvChBroken,0,32,0-0-0 0:0:0
+7,PCS执行充电命令不响应故障,PcsFaultChargeNoExec,0,31,0-0-0 0:0:0
+7,PCS执行放电命令不响应故障,PcsFaultDischargeNoExec,0,31,0-0-0 0:0:0
+7,PCS执行待机命令不响应故障,PcsFaultWaitNoExec,0,31,0-0-0 0:0:0
+

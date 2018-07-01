@@ -1,0 +1,2 @@
+ID32,tTime,tStartTime,ulDayNormal,ulDayStop,fDayNorRatio,ulMonthNormal,ulMonthStop,fMonthNorRatio,ulYearNormal,ulYearStop,fYearNorRatio,iOCTime,iOCMaxNum,iTimeSpan,iOCNum,iMaxRunTime,iRunTime,iOverNumClass,iOverTimeClass,iDelayMax,iDelayTime
+

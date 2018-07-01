@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////
+// ProcessEvent.h: 定义专用于实时库的进程的消息的事件对象.
+/////////////////////////////////////////////////////////////////////////////
+#ifndef __AFX_PROCESS_EVENT_H_2004_05_25__
+#define __AFX_PROCESS_EVENT_H_2004_05_25__
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "EventEx.h"
+/////////////////////////////////////////////////////////////////////////////
+class AFX_EXT_CLASS CProcessEvent : public CEventEx
+{
+public:
+	CProcessEvent();
+	CProcessEvent(int nProcessType);
+
+public:
+	bool	Create(int nProcessType);
+
+	static bool DeleteProcessEvent();
+};
+/////////////////////////////////////////////////////////////////////////////
+#endif // __AFX_PROCESS_EVENT_H_2004_05_25__

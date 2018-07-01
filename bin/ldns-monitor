@@ -1,0 +1,26 @@
+arr_program=$(sed -n 1p ldns-program)
+strp=$(sed -n 1p ldns-program)
+while true
+do
+	for program in ${arr_program[@]}
+	do
+	number=`ps -ef|grep $program|grep -v grep|wc -l`
+	if [ $number -lt 1 ] ; then
+		if [ "$program" == "RtServer" ] ; then
+			bash ldns-shutdown
+		fi	
+		echo $strp | sudo -E -S ./$program > /dev/null 2>&1 &
+		echo start $program
+		sleep 5
+	echo "restart $program"
+	fi
+	done
+sleep 1
+done
+echo "$0 stop"
+exit
+
+
+
+
+

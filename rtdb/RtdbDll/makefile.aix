@@ -1,0 +1,58 @@
+
+CC=g++
+
+# for Sun
+#LFLAGS = -G -lsocket -lnsl -lpthread -lrt -lstdc++ -g
+
+# for Alpha
+#LFLAGS = -shared -lpthread -lstdc++ -g
+
+# for IBM
+LFLAGS = -shared -lnsl -lpthread -g
+
+LIBRARY = -L$(CSC2000)/lib
+
+CINCLUDE = -DUNIX_ENV -I.\
+	   -I$(CSC2000)/src/CProject/support/include \
+	   -I$(CSC2000)/src/CProject/support/headfile \
+	   -D_REENTRANT \
+	   -D_THREAD_SAFE \
+
+OBJS = \
+	ShareMemory.o \
+	MutexEx.o \
+	EventEx.o \
+	ThreadMutex.o \
+	ThreadEvent.o \
+	DataValue.o \
+	SocketEx.o \
+	Formula.o \
+	DBField.o \
+	DBTable.o \
+	DataBase.o \
+	MultiDataBase.o \
+	SysManager.o \
+	SystemTable.o \
+	ProcessEvent.o \
+	CmdProcess.o \
+	CmdToRtServer.o \
+	RtdbDefFile.o \
+	MsgDealer.o \
+	TcpListener.o \
+	TcpReceiver.o \
+	TcpWorker.o \
+	UdpWorker.o \
+	MUdpWorker.o \
+	gFunction.o \
+	ID32Base.o \
+	RtdbFile.o 
+
+$(CSC2000)/lib/RealDB.so: $(OBJS)
+	$(CC) $(LIBRARY) $(CINCLUDE) -o $(CSC2000)/lib/libRealDB.so $(OBJS) $(LFLAGS)
+
+# Compile source files into .o's
+%.o: %.cpp
+	$(CC) -c $(CFLAGS) $(CINCLUDE) -o $@ $<
+
+clean:
+	rm -f $(OBJS) 

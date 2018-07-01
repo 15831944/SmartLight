@@ -1,0 +1,4 @@
+ID32,strName,strDescription,strIP1,strIP2,iType,iAllowProcess,iActiveNet,tStartTime,tActiveTime,iStatus,uLoginUserID,tCheckRightTime,uMaxMsgID,AOR,iCPU,iDisk,iMemory,lWatchNode1,lWatchNode2,iHeart
+1,work1,work1,192.168.200.5,,4,32767,3,2016-2-22 17:17:53,2016-2-22 17:31:23,1,0,22614425,754852,0,10,75,69,0,0,1
+2,work2,work2,192.168.40.28,,4,32767,3,2016-2-22 17:17:53,2016-2-22 17:31:23,1,0,22614425,754852,0,10,75,69,0,0,1
+

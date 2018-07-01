@@ -1,0 +1,3 @@
+ID32,iNetHeartPeriod,iNodeHeartPeriod,iProcessHeartPeriod,iLogoutTime,iFormulaPeriod
+1,60,30,30,30,500
+

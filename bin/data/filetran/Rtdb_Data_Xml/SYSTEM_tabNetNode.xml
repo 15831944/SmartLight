@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Field ID32="1" strName="TJS-PC" strDescription="TJS-PC" strIP1="200.1.1.11" strIP2="200.1.2.11" iType="4" iAllowProcess="8191" iActiveNet="3" tStartTime="2015-11-7 13:11:18" tActiveTime="2015-11-7 13:11:18" iStatus="1" uLoginUserID="0" tCheckRightTime="0" uMaxMsgID="754816" AOR="0" iCPU="9" iDisk="29" iMemory="56" lWatchNode1="0" lWatchNode2="0" iHeart="0" />
+</Setting>

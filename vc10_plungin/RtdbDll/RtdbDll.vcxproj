@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}</ProjectGuid>
+    <RootNamespace>RtdbDll</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\Debug\RtdbDll\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Release\RtdbDll\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RealDB</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\..\Debug\Support\RtdbDll/RtdbDll.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\rtdb\include;..\..\rtdb\headfile;..\..\Include\tinyxmlInclude;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>..\..\Debug\Support\RtdbDll/RtdbDll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\..\Debug\Support\RtdbDll/</AssemblerListingLocation>
+      <ObjectFileName>..\..\Debug\Support\RtdbDll/</ObjectFileName>
+      <ProgramDataBaseFileName>..\..\Debug\Support\RtdbDll/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\Debug\RtdbDll/RealDB.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(TargetDir)RealDB.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\..\..\Debug\Support\RtdbDll/RtdbDll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Release\Support\RtdbDll/RtdbDll.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\rtdb\include;..\..\rtdb\headfile;..\..\Include\tinyxmlInclude;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXEXT;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\..\Release\Support\RtdbDll/RtdbDll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\..\Release\Support\RtdbDll/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\Release\Support\RtdbDll/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\Release\Support\RtdbDll/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\RealDB.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <ProgramDatabaseFile>.\..\..\Release\Support\RtdbDll/RtdbDll_r.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(TargetDir)RealDB.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\Release\Support\RtdbDll/RtdbDll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="RtdbDll.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\RtdbDll.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\rtdb\headfile\SYSTEM.h" />
+    <ClInclude Include="..\..\rtdb\include\AlarmDefine.h" />
+    <ClInclude Include="..\..\rtdb\include\BaseSql.h" />
+    <ClInclude Include="..\..\rtdb\include\CLogUtil.h" />
+    <ClInclude Include="..\..\rtdb\include\CmdProcess.h" />
+    <ClInclude Include="..\..\rtdb\include\CmdToRtServer.h" />
+    <ClInclude Include="..\..\rtdb\include\ComputerWatch.h" />
+    <ClInclude Include="..\..\rtdb\include\CString.h" />
+    <ClInclude Include="..\..\rtdb\include\DataBase.h" />
+    <ClInclude Include="..\..\rtdb\include\DataValue.h" />
+    <ClInclude Include="..\..\rtdb\include\DBField.h" />
+    <ClInclude Include="..\..\rtdb\include\DBTable.h" />
+    <ClInclude Include="..\..\rtdb\include\EventEx.h" />
+    <ClInclude Include="..\..\rtdb\include\Formula.h" />
+    <ClInclude Include="..\..\rtdb\include\gCmdDefine.h" />
+    <ClInclude Include="..\..\rtdb\include\GoBackOS.h" />
+    <ClInclude Include="..\..\rtdb\include\gSystemDef.h" />
+    <ClInclude Include="..\..\rtdb\include\Log.h" />
+    <ClInclude Include="..\..\rtdb\include\LogMutex.h" />
+    <ClInclude Include="..\..\rtdb\include\MsgDealer.h" />
+    <ClInclude Include="..\..\rtdb\include\MsgDefine.h" />
+    <ClInclude Include="..\..\rtdb\include\MultiDataBase.h" />
+    <ClInclude Include="..\..\rtdb\include\MutexEx.h" />
+    <ClInclude Include="..\..\rtdb\include\NetStructDef.h" />
+    <ClInclude Include="..\..\rtdb\include\ProcessEvent.h" />
+    <ClInclude Include="..\..\rtdb\include\RightDefine.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbDefFileXml.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbFile.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbFileXml.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbFtp.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbSql.h" />
+    <ClInclude Include="..\..\rtdb\include\RtdbTabSave.h" />
+    <ClInclude Include="..\..\rtdb\include\Rtdb_Struct.h" />
+    <ClInclude Include="..\..\rtdb\include\ShareMemory.h" />
+    <ClInclude Include="..\..\rtdb\include\SocketEx.h" />
+    <ClInclude Include="..\..\rtdb\include\ThreadEvent.h" />
+    <ClInclude Include="..\..\rtdb\include\ThreadMutex.h" />
+    <ClInclude Include="..\..\rtdb\include\XmlHead.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\ID32Base.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\md5.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\MUdpWorker.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\resource.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\RtdbDefFile.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\StdAfx.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\TcpListener.h" />
+    <ClInclude Include="..\..\rtdb\RtdbDll\TcpReceiver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

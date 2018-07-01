@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Setting>
+      <Field id="1" name="运行方式" value="true"/>
+    <Field id="2" name="启用AGC算法" value="false"/>
+    <Field id="3" name="启用AVC算法" value="false"/>
+    <Field id="4" name="启用数据处理" value="true"/>
+    <Field id="5" name="启用数据记录" value="true"/>
+    <Field id="6" name="启用断面数据保存" value="false"/>
+    <Field id="7" name="断面保存间隔秒" value="10"/>
+    <Field id="8" name="标识当前是主机还是备机的遥测ID" value="32"/>
+    <Field id="9" name="启用调度通道断开切为备机" value="false"/>
+    <Field id="10" name="调度通道id" value="2"/>
+    <Field id="11" name="持续断开再次切换秒数" value="60"/>
+    <Field id="12" name="接收组态切换命令的遥信id" value="0"/>
+</Setting>

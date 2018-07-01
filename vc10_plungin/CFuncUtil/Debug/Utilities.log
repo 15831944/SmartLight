@@ -1,0 +1,32 @@
+﻿生成启动时间为 2016-5-23 19:50:40。
+     1>项目“E:\e3pro2\program\ldns\code\vc10\Utilities\Utilities.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\CComUtilTools.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\..\Include\CommFrameInclude /I..\..\Include /I..\..\scada\include /I..\..\rtdb\include /I..\..\Utilities\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D UTILITIES_EXPORTS /D WINDOWS_ENV /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Utilities\CComUtilTools.cpp
+         CComUtilTools.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CComUtilTools.dll.embed.manifest.res" Debug\CComUtilTools_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\CComUtilTools.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin\ RealDB.lib /MANIFEST /ManifestFile:"Debug\CComUtilTools.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\e3pro2\program\ldns\code\bin\CComUtilTools.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\CComUtilTools.lib" /MACHINE:X86 /DLL Debug\CComUtilTools.dll.embed.manifest.res
+         Debug\CBrowseDir.obj
+         Debug\CComUtilTools.obj
+            正在创建库 ..\..\bin\CComUtilTools.lib 和对象 ..\..\bin\CComUtilTools.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CComUtilTools.dll.embed.manifest" /manifest Debug\CComUtilTools.dll.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CComUtilTools.dll.embed.manifest.res" Debug\CComUtilTools_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\CComUtilTools.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin\ RealDB.lib /MANIFEST /ManifestFile:"Debug\CComUtilTools.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\e3pro2\program\ldns\code\bin\CComUtilTools.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\CComUtilTools.lib" /MACHINE:X86 /DLL Debug\CComUtilTools.dll.embed.manifest.res
+         Debug\CBrowseDir.obj
+         Debug\CComUtilTools.obj
+            正在创建库 ..\..\bin\CComUtilTools.lib 和对象 ..\..\bin\CComUtilTools.exp
+         Utilities.vcxproj -> E:\e3pro2\program\ldns\code\vc10\Utilities\..\..\bin\CComUtilTools.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CComUtilTools.unsuccessfulbuild”。
+         正在对“Debug\CComUtilTools.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\e3pro2\program\ldns\code\vc10\Utilities\Utilities.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.29

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="基本配置">
+        <Field id="1" name="当前站类型" value="2" type="ENUM">
+            <Option id="1" name="网络" />
+            <Option id="2" name="串口" />
+        </Field>
+        <Field id="2" name="对端01通道的IP地址" value="192.168.60.127" type="STRING" />
+        <Field id="3" name="对端01通道的端口号" value="5003" type="INT" />
+        <Field id="4" name="对端02通道的IP地址" value="192.168.40.55" type="STRING" />
+        <Field id="5" name="对端02通道的端口号" value="502" type="INT" />
+        <Field id="10" name="设备地址" value="1" type="INT" />
+        <Field id="11" name="串口号" value="COM1" type="STRING" />
+        <Field id="12" name="波特率" value="9600" type="INT" />
+        <Field id="13" name="数据位" value="8" type="INT" />
+        <Field id="14" name="停止位" value="0" type="INT" />
+        <!--0\1\2表示1、1.5、2-->
+        <Field id="15" name="校验位" value="0" type="INT" />
+        <!--0、1、2表示无校验、奇校验、偶校验-->
+    </Record>
+    <Record id="2" name="召唤配置">
+        <Field id="1" name="遥测响应类型" value="1" type="ENUM">
+            <Option id="1" name="四字节浮点型" />
+        </Field>
+        <Field id="2" name="浮点遥测上送字节顺序" value="4" type="ENUM">
+            <Option id="1" name="从低到高(两个寄存器之间,低字节在前,高字节在后；寄存器内部是低在前、高在后)" />
+            <Option id="2" name="从高到低(两个寄存器之间,高字节在前,低字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="3" name="2301模式(两个寄存器之间,低字节在前,高字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="4" name="1032模式(两个寄存器之间,高字节在前,低字节在后；寄存器内部是低在前、高在后)" />
+        </Field>
+        <Field id="3" name="遥测起始寄存器地址(读)" value="0" type="INT" />
+        <Field id="4" name="遥信起始线圈地址(读)" value="1" type="INT" />
+        <Field id="5" name="遥测起始寄存器地址(写)" value="0" type="INT" />
+        <Field id="6" name="读数据间隔周期" value="2" type="INT" />
+        <Field id="7" name="每一个周期停止(毫秒)" value="1000" type="INT" />
+        <Field id="8" name="每次寄存器个数" value="8" type="INT" />
+        <Field id="9" name="读遥测寄存器功能码" value="3" type="INT" />
+        <Field id="10" name="读遥信寄存器功能码" value="1" type="INT" />
+        <Field id="11" name="第一个同步码" value="0" type="INT" />
+        <Field id="12" name="备用" value="9" type="INT">
+        </Field>
+    </Record>
+    <Record id="3" name="控制配置">
+        <Field id="1" name="遥调类型" value="1" type="ENUM">
+            <Option id="1" name="四字节浮点型功能码为0x10" />
+            <Option id="2" name="四字节浮点型功能码为0x06" />
+            <!--非标准0x06一次写4字节-->
+            <Option id="5" name="两字节整型功能码为0x06" />
+            <!--非标准0x03一次写4字节float-->
+            <Option id="6" name="四字节浮点型功能码为0x03" />
+        </Field>
+        <Field id="2" name="遥控功能码" value="5" type="INT" />
+        <Field id="3" name="遥控闭合值(16进制)" value="FF00" type="ENUM" />
+        <Field id="4" name="遥控断开值(16进制)" value="0000" type="ENUM" />
+        <Field id="5" name="遥调接收字节顺序" value="4" type="ENUM">
+            <Option id="1" name="从低到高(两个寄存器之间,低字节在前,高字节在后；寄存器内部是低在前、高在后)" />
+            <Option id="2" name="从高到低(两个寄存器之间,高字节在前,低字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="3" name="2301模式(两个寄存器之间,低字节在前,高字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="4" name="1032模式(两个寄存器之间,高字节在前,低字节在后；寄存器内部是低在前、高在后)" />
+        </Field>
+    </Record>
+</Setting>

@@ -1,0 +1,4 @@
+ID32,strName,iValID,strExpression,lFlag
+1,≤‚ ‘1,92,AI(5),1
+2,≤‚ ‘2,93,AI(6),1
+

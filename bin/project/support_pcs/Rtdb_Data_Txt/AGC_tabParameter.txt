@@ -1,0 +1,14 @@
+ID32,strName,strKey,iType,iVal
+1,调节计算时间间隔(毫秒),CalcInterval,1,15000
+2,下发命令时间间隔(毫秒),SendCmdInterval,1,200
+3,执行命令不成功重复发送,ReSendFlg,2,0
+4,日志开关,LogFlg,2,1
+5,闭锁检查开启,LockCheckFlg,2,1
+6,安全约束开启,SafeCheckFlg,2,1
+7,调试标识(1启用调试0关闭),DebugFlg,2,1
+8,调节策略(1通用2经济调度),AdMethod,1,2
+9,启用1分钟变化率限制,OneMinLimitFlg,1,1
+10,判断命令执行不到位超时时间(秒),CmdTimeOut,1,20
+11,AGC实时数据日志开关(1启用0关闭),AGCDataLog,1,1
+12,AGC实时数据日志记录周期(单位秒),AGCDataLogPeriod,1,6
+

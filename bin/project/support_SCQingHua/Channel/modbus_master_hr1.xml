@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <!--说明：与金风风机的能量管理平台通道,使用规约网络modbus-->
+    <Record id="1" name="基本配置">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="网络" />
+            <Option id="2" name="串口" />
+        </Field>
+        <Field id="2" name="对端01通道的IP地址" value="192.168.203.203" type="STRING" />
+        <Field id="3" name="对端01通道的端口号" value="502" type="INT" />
+        <Field id="4" name="对端02通道的IP地址" value="192.168.203.203" type="STRING" />
+        <Field id="5" name="对端02通道的端口号" value="502" type="INT" />
+        <Field id="10" name="设备地址" value="1" type="INT" />
+        <Field id="11" name="串口号" value="COM4" type="STRING" />
+        <Field id="12" name="波特率" value="9600" type="INT" />
+        <Field id="13" name="数据位" value="8" type="INT" />
+        <Field id="14" name="停止位" value="1" type="INT" />
+        <!--0\1\2表示1、1.5、2-->
+        <Field id="15" name="校验位" value="0" type="INT" />
+        <!--0、1、2表示无校验、奇校验、偶校验-->
+    </Record>
+    <Record id="2" name="召唤配置">
+        <Field id="1" name="遥测响应类型" value="1" type="ENUM">
+            <Option id="1" name="四字节浮点型" />
+        </Field>
+        <Field id="2" name="浮点遥测上送字节顺序" value="1" type="ENUM">
+            <Option id="1" name="从低到高(两个寄存器之间,低字节在前,高字节在后；寄存器内部是低在前、高在后)" />
+            <Option id="2" name="从高到低(两个寄存器之间,高字节在前,低字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="3" name="2301模式(两个寄存器之间,低字节在前,高字节在后；寄存器内部是高在前、低在后)" />
+            <Option id="4" name="1032模式(两个寄存器之间,高字节在前,低字节在后；寄存器内部是低在前、高在后)" />
+        </Field>
+        <Field id="3" name="遥测起始寄存器地址(读)" value="0" type="INT" />
+        <Field id="4" name="遥信起始线圈地址(读)" value="1" type="INT" />
+        <Field id="5" name="遥测起始寄存器地址(写)" value="0" type="INT" />
+        <Field id="6" name="读数据间隔周期" value="2" type="INT" />
+        <Field id="7" name="每一个周期停止(毫秒)" value="10" type="INT" />
+        <Field id="8" name="每次寄存器个数" value="8" type="INT" />
+        <Field id="9" name="读遥测寄存器功能码" value="4" type="INT" />
+        <Field id="10" name="读遥信寄存器功能码" value="1" type="INT" />
+        <Field id="11" name="第一个同步码" value="0" type="INT" />
+        <Field id="12" name="整形遥测上送字节顺序" value="1" type="ENUM">
+            <Option id="1" name="从高到低" />
+            <Option id="2" name="从低到高" />
+        </Field>
+    </Record>
+    <Record id="3" name="控制配置">
+        <Field id="1" name="遥调类型" value="1" type="ENUM">
+            <Option id="1" name="四字节浮点型功能码为0x10" />
+            <Option id="2" name="四字节浮点型功能码为0x06" />
+            <!--非标准0x06一次写4字节-->
+            <Option id="5" name="两字节整型功能码为0x06" />
+            <!--非标准0x03一次写4字节float-->
+            <Option id="6" name="四字节浮点型功能码为0x03" />
+        </Field>
+    </Record>
+    <Record id="4" name="读遥测" count="50">
+        <!--id 编号,begin 寄存器起始地址十进制,count 寄存器个数,type,类型,1四字节FLOAT,2两字节有符号Short类型 
+	3 混合类型，可以在遥测表里边指定数据类型
+	4双精度浮点数
+	7华为数据，无数据字节个数
+	8四字节整形，有符号
+	9四字节整形，无符号
+	10两字节整形无符号
+ -->
+        <Field id="1" descr="空调#1" device="1" begin="32" count="32" type="10" />
+        <Field id="2" descr="空调#2" device="1" begin="64" count="32" type="10" />
+        <Field id="3" descr="空调#3" device="1" begin="96" count="32" type="10" />
+        <Field id="4" descr="空调#4" device="1" begin="128" count="32" type="10" />
+        <Field id="5" descr="空调#5" device="1" begin="160" count="32" type="10" />
+        <Field id="6" descr="空调#6" device="1" begin="192" count="32" type="10" />
+        <Field id="7" descr="空调#7" device="1" begin="224" count="32" type="10" />
+        <Field id="8" descr="空调#8" device="1" begin="256" count="32" type="10" />
+        <Field id="9" descr="空调#9" device="1" begin="288" count="32" type="10" />
+        <Field id="10" descr="空调#10" device="1" begin="320" count="32" type="10" />
+        <Field id="11" descr="空调#11" device="1" begin="352" count="32" type="10" />
+        <Field id="12" descr="空调#12" device="1" begin="384" count="32" type="10" />
+        <Field id="13" descr="空调#13" device="1" begin="416" count="32" type="10" />
+        <Field id="14" descr="空调#14" device="1" begin="448" count="32" type="10" />
+        <Field id="15" descr="空调#15" device="1" begin="480" count="32" type="10" />
+        <Field id="16" descr="空调#16" device="1" begin="512" count="32" type="10" />
+        <Field id="17" descr="空调#17" device="1" begin="544" count="32" type="10" />
+        <Field id="18" descr="空调#18" device="1" begin="576" count="32" type="10" />
+        <Field id="19" descr="空调#19" device="1" begin="608" count="32" type="10" />
+        <Field id="20" descr="空调#20" device="1" begin="640" count="32" type="10" />
+        <Field id="21" descr="空调#21" device="1" begin="672" count="32" type="10" />
+        <Field id="22" descr="空调#24" device="1" begin="768" count="32" type="10" />
+        <Field id="23" descr="空调#25" device="1" begin="800" count="32" type="10" />
+        <Field id="24" descr="空调#26" device="1" begin="832" count="32" type="10" />
+        <Field id="25" descr="空调#27" device="1" begin="864" count="32" type="10" />
+        <Field id="26" descr="空调#28" device="1" begin="896" count="32" type="10" />
+        <Field id="27" descr="空调#29" device="1" begin="928" count="32" type="10" />
+        <Field id="28" descr="空调#30" device="1" begin="960" count="32" type="10" />
+        <Field id="29" descr="空调#31" device="1" begin="992" count="32" type="10" />
+        <Field id="30" descr="空调#32" device="1" begin="1024" count="32" type="10" />
+        <Field id="31" descr="空调#33" device="1" begin="1056" count="32" type="10" />
+        <Field id="32" descr="空调#34" device="1" begin="1088" count="32" type="10" />
+        <Field id="33" descr="空调#35" device="1" begin="1120" count="32" type="10" />
+        <Field id="34" descr="空调#36" device="1" begin="1152" count="32" type="10" />
+        <Field id="35" descr="空调#37" device="1" begin="1184" count="32" type="10" />
+        <Field id="36" descr="空调#38" device="1" begin="1216" count="32" type="10" />
+        <Field id="37" descr="空调#39" device="1" begin="1248" count="32" type="10" />
+        <Field id="38" descr="空调#40" device="1" begin="1280" count="32" type="10" />
+        <Field id="39" descr="空调#41" device="1" begin="1312" count="32" type="10" />
+        <Field id="40" descr="空调#42" device="1" begin="1344" count="32" type="10" />
+        <Field id="41" descr="空调#43" device="1" begin="1376" count="32" type="10" />
+        <Field id="42" descr="空调#44" device="1" begin="1408" count="32" type="10" />
+        <Field id="43" descr="空调#45" device="1" begin="1440" count="32" type="10" />
+        <Field id="44" descr="空调#46" device="1" begin="1472" count="32" type="10" />
+        <Field id="45" descr="空调#47" device="1" begin="1504" count="32" type="10" />
+        <Field id="46" descr="空调#48" device="1" begin="1536" count="32" type="10" />
+        <Field id="47" descr="空调#49" device="1" begin="1568" count="32" type="10" />
+        <Field id="48" descr="空调#50" device="1" begin="1600" count="32" type="10" />
+        <Field id="49" descr="空调#51" device="1" begin="1632" count="32" type="10" />
+        <Field id="50" descr="空调#52" device="1" begin="1664" count="32" type="10" />
+    </Record>
+    <Record id="5" name="读遥信" count="50">
+        <!--id 编号,begin 寄存器起始地址十进制,count 线圈个数,type标准类型-->
+        <!--<Field id="1" descr="" device="1" begin="50100" count="4" type="1" />   -->
+   <Field id="1" descr="空调#1" device="1" begin="128" count="80" type="1" />
+   <Field id="2" descr="空调#2" device="1" begin="256" count="80" type="1" />
+   <Field id="3" descr="空调#3" device="1" begin="384" count="80" type="1" />
+   <Field id="4" descr="空调#4" device="1" begin="512" count="80" type="1" />
+   <Field id="5" descr="空调#5" device="1" begin="640" count="80" type="1" />
+   <Field id="6" descr="空调#6" device="1" begin="768" count="80" type="1" />
+   <Field id="7" descr="空调#7" device="1" begin="896" count="80" type="1" />
+   <Field id="8" descr="空调#8" device="1" begin="1024" count="80" type="1" />
+   <Field id="9" descr="空调#9" device="1" begin="1152" count="80" type="1" />
+   <Field id="10" descr="空调#10" device="1" begin="1280" count="80" type="1" />
+   <Field id="11" descr="空调#11" device="1" begin="1408" count="80" type="1" />
+   <Field id="12" descr="空调#12" device="1" begin="1536" count="80" type="1" />
+   <Field id="13" descr="空调#13" device="1" begin="1664" count="80" type="1" />
+   <Field id="14" descr="空调#14" device="1" begin="1792" count="80" type="1" />
+   <Field id="15" descr="空调#15" device="1" begin="1920" count="80" type="1" />
+   <Field id="16" descr="空调#16" device="1" begin="2048" count="80" type="1" />
+   <Field id="17" descr="空调#17" device="1" begin="2176" count="80" type="1" />
+   <Field id="18" descr="空调#18" device="1" begin="2304" count="80" type="1" />
+   <Field id="19" descr="空调#19" device="1" begin="2432" count="80" type="1" />
+   <Field id="20" descr="空调#20" device="1" begin="2560" count="80" type="1" />
+   <Field id="21" descr="空调#21" device="1" begin="2688" count="80" type="1" />
+   <Field id="22" descr="空调#22" device="1" begin="3072" count="80" type="1" />
+   <Field id="23" descr="空调#23" device="1" begin="3200" count="80" type="1" />
+   <Field id="24" descr="空调#24" device="1" begin="3328" count="80" type="1" />
+   <Field id="25" descr="空调#25" device="1" begin="3456" count="80" type="1" />
+   <Field id="26" descr="空调#26" device="1" begin="3584" count="80" type="1" />
+   <Field id="27" descr="空调#27" device="1" begin="3712" count="80" type="1" />
+   <Field id="28" descr="空调#28" device="1" begin="3840" count="80" type="1" />
+   <Field id="29" descr="空调#29" device="1" begin="3968" count="80" type="1" />
+   <Field id="30" descr="空调#30" device="1" begin="4096" count="80" type="1" />
+   <Field id="31" descr="空调#31" device="1" begin="4224" count="80" type="1" />
+   <Field id="32" descr="空调#32" device="1" begin="4352" count="80" type="1" />
+   <Field id="33" descr="空调#33" device="1" begin="4480" count="80" type="1" />
+   <Field id="34" descr="空调#34" device="1" begin="4608" count="80" type="1" />
+   <Field id="35" descr="空调#35" device="1" begin="4736" count="80" type="1" />
+   <Field id="36" descr="空调#36" device="1" begin="4864" count="80" type="1" />
+   <Field id="37" descr="空调#37" device="1" begin="4992" count="80" type="1" />
+   <Field id="38" descr="空调#38" device="1" begin="5120" count="80" type="1" />
+   <Field id="39" descr="空调#39" device="1" begin="5248" count="80" type="1" />
+   <Field id="40" descr="空调#40" device="1" begin="5376" count="80" type="1" />
+   <Field id="41" descr="空调#41" device="1" begin="5504" count="80" type="1" />
+   <Field id="42" descr="空调#42" device="1" begin="5632" count="80" type="1" />
+   <Field id="43" descr="空调#43" device="1" begin="5760" count="80" type="1" />
+   <Field id="44" descr="空调#44" device="1" begin="5888" count="80" type="1" />
+   <Field id="45" descr="空调#45" device="1" begin="6016" count="80" type="1" />
+   <Field id="46" descr="空调#46" device="1" begin="6144" count="80" type="1" />
+   <Field id="47" descr="空调#47" device="1" begin="6272" count="80" type="1" />
+   <Field id="48" descr="空调#48" device="1" begin="6400" count="80" type="1" />
+   <Field id="49" descr="空调#49" device="1" begin="6528" count="80" type="1" />
+   <Field id="50" descr="空调#50" device="1" begin="6656" count="80" type="1" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印命令提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+    <Record id="100" name="文件类型">
+        <Field id="1" name="类型" value="MODBUSTCP主站第2版" type="INT" />
+    </Record>
+</Setting>

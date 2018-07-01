@@ -1,0 +1,7 @@
+ID32,uStationID,strID,strName,iType,lFlag,iStationAddr,dvtype,dvno,iStatus,iStatusID,iRecordFlag,iRecordBegin,iRecordEnd,iRecPacketFlg,iRecPromptFlg
+1,1,虚拟通道,虚拟通道,1,1,1,1,1,1,1,0,0,0,0,0
+2,1,采集电表通道,采集电表通道,1,1,1,1,1,1,2,0,0,0,0,0
+3,1,上传到云通道,采集电表通道,1,1,1,1,1,1,2,0,0,0,0,0
+4,1,采集空调,采集空调,1,1,1,1,1,1,2,0,0,0,0,0
+5,1,采集智能灯,采集智能灯,1,1,1,1,1,1,1,0,0,0,0,0
+

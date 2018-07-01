@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Field ID32="1" strName="通道           " iFlag="0" iType="0" uProtocolID="1" strProtocolPara="null" strLinkParam="TCP" iStatus="0" iStatusID="12" tStartTime="2012-6-1 23:30:41" strTransFile="" iRunAttr="0" />
+    <Field ID32="2" strName="组态通道       " iFlag="0" iType="3" uProtocolID="1" strProtocolPara="modbus.xml" strLinkParam="TCP" iStatus="0" iStatusID="13" tStartTime="2012-6-1 23:37:33" strTransFile="" iRunAttr="3" />
+    <Field ID32="3" strName="SVG通道        " iFlag="0" iType="1" uProtocolID="10" strProtocolPara="modbus_svg.xml" strLinkParam="RS485" iStatus="0" iStatusID="14" tStartTime="2012-6-13 23:30:38" strTransFile="" iRunAttr="3" />
+    <Field ID32="4" strName="上传调度(主)    " iFlag="1" iType="1" uProtocolID="3" strProtocolPara="iec104_slave.xml" strLinkParam="TCP" iStatus="0" iStatusID="15" tStartTime="2012-6-13 23:32:7" strTransFile="" iRunAttr="3" />
+    <Field ID32="5" strName="1#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr1.xml" strLinkParam="TCP" iStatus="0" iStatusID="16" tStartTime="2012-11-25 23:28:14" strTransFile="" iRunAttr="3" />
+    <Field ID32="6" strName="2#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr2.xml" strLinkParam="TCP" iStatus="0" iStatusID="17" tStartTime="2012-11-25 23:43:0" strTransFile="" iRunAttr="0" />
+    <Field ID32="7" strName="3#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr3.xml" strLinkParam="TCP" iStatus="0" iStatusID="18" tStartTime="2012-11-25 23:48:18" strTransFile="" iRunAttr="3" />
+    <Field ID32="8" strName="4#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr4.xml" strLinkParam="TCP" iStatus="0" iStatusID="19" tStartTime="2012-11-25 23:49:23" strTransFile="" iRunAttr="3" />
+    <Field ID32="9" strName="5#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr5.xml" strLinkParam="TCP" iStatus="0" iStatusID="20" tStartTime="2012-11-25 23:50:20" strTransFile="" iRunAttr="3" />
+    <Field ID32="10" strName="6#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr6.xml" strLinkParam="TCP" iStatus="0" iStatusID="21" tStartTime="2012-11-25 23:51:14" strTransFile="" iRunAttr="3" />
+    <Field ID32="11" strName="7#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr7.xml" strLinkParam="TCP" iStatus="0" iStatusID="22" tStartTime="2012-11-25 23:52:7" strTransFile="" iRunAttr="3" />
+    <Field ID32="12" strName="8#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr8.xml" strLinkParam="TCP" iStatus="0" iStatusID="23" tStartTime="2012-11-25 23:53:20" strTransFile="" iRunAttr="0" />
+    <Field ID32="13" strName="9#逆变器室通道 " iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr9.xml" strLinkParam="TCP" iStatus="0" iStatusID="24" tStartTime="2012-11-25 23:54:42" strTransFile="" iRunAttr="3" />
+    <Field ID32="14" strName="10#逆变器室通道" iFlag="0" iType="1" uProtocolID="1" strProtocolPara="modbus_master_hr10.xml" strLinkParam="TCP" iStatus="0" iStatusID="25" tStartTime="2012-11-25 23:56:15" strTransFile="" iRunAttr="3" />
+    <Field ID32="15" strName="综自通道(35kv) " iFlag="0" iType="1" uProtocolID="10" strProtocolPara="modbus_master_hr11.xml" strLinkParam="TCP" iStatus="0" iStatusID="26" tStartTime="2012-11-25 23:59:40" strTransFile="" iRunAttr="3" />
+    <Field ID32="16" strName="虚拟通道       " iFlag="0" iType="4" uProtocolID="10" strProtocolPara="modbus_master_hr12.xml" strLinkParam="TCP" iStatus="0" iStatusID="27" tStartTime="2012-11-26 0:0:28" strTransFile="" iRunAttr="3" />
+    <Field ID32="17" strName="上传调度（备）    " iFlag="0" iType="2" uProtocolID="10" strProtocolPara="" strLinkParam="TCP" iStatus="0" iStatusID="28" tStartTime="2012-11-26 0:1:10" strTransFile="" iRunAttr="3" />
+    <Field ID32="18" strName="agc曲线" iFlag="0" iType="3" uProtocolID="0" strProtocolPara="modbuscurve_agc.xml" strLinkParam="TCP" iStatus="0" iStatusID="29" tStartTime="0-0-0 0:0:0" strTransFile="" iRunAttr="0" />
+    <Field ID32="19" strName="avc曲线" iFlag="0" iType="3" uProtocolID="0" strProtocolPara="modbuscurve_avc.xml" strLinkParam="TCP" iStatus="0" iStatusID="30" tStartTime="0-0-0 0:0:0" strTransFile="" iRunAttr="0" />
+</Setting>

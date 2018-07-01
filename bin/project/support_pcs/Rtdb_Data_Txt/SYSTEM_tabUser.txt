@@ -1,0 +1,2 @@
+ID32,strName,strPasswd,iGroupFlag,strCard,strTelephone,nRuningUserGroup,nRuningUser
+

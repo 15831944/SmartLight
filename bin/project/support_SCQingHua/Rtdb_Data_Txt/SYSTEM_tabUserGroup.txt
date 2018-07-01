@@ -1,0 +1,2 @@
+ID32,strName,iRightsFlag1,iRightsFlag2,iRightsFlag3,iRightsFlag4
+

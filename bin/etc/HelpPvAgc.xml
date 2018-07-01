@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding="gb2312" ?>
+<Setting>
+  <Record id="1" name="参数设置" >
+  <Field id="1" name="调节计算时间间隔(毫秒)" value="30000" remark=""/> 
+  <Field id="2" name="下发命令时间间隔(毫秒)" value="300" remark="给逆变器下发指令的时间间隔，一般保持默认值不变" />
+  <Field id="3" name="强制调节时间间隔" value="30" />
+  <Field id="4" name="AGC目标获取方式" value="2" /><!--AGC目标获取方式: 1计划曲线 2遥调 -->
+  <Field id="5" name="执行命令不成功重复发送" value="0" />
+  <Field id="6" name="日志开关" value="1" /><!-- 0关闭 1打开全部 2记录命令 3记录计算过程 4记录其他 -->
+</Record>
+<Record  id="2" name="逆变器列表" count="40" >
+	<Field id="1"  name="1号逆变器室A逆变器总有功输出比例 " device="1" no="1" enabled="true" prating="500" maxlimit="500" pindex="81" statusindex="10" minAdjust="1" channel="3" factor="0.09091" upadd="1" downsub="1" adtimes="1" dispower="" agclock="" uplock="" downlock="" sendcmd="420"/>                                                                                                                     
+</Record>                                                                                                                        
+  <Record id="3" name="并网参数">                                                                                                
+    <Field   id="1"  name="并网点有功" index = "13" flag = "0" show="true"/>  
+    <Field   id="2"  name="并网点无功" index = "14"  flag = "0" show="true"/> 
+    <Field   id="3"  name="并网点电压" index = "18"  flag = "0" show="true"/> 
+    <Field   id="4"  name="并网点cos"   index = "12"  flag = "0" show="true"/>
+    <Field   id="5"  name="并网点频率"  index = "-1"  flag = "0" show="true"/>               
+    <Field   id="6"  name="辐照强度"  index = "75"  flag = "0" show="true"/>  
+</Record>                                                                                                                      
+                                                                                                                                 
+ <Record id="4" name="数据定义">                                                                                                 
+    <Field id="1" name="AGC远方计划值" value="519" show="true" remark="一般在虚拟通道中选择遥测点，由程序写入具体值，表示调度下发的无功控制目标值"/>                                                                            
+    <Field id="2" name="AGC本地计划值" value="518" show="true" remark="一般在虚拟通道中选择遥测点，由程序写入具体值，表示本地下发的无功控制目标值"/>                                                                            
+    <Field id="3" name="AGC实时目标值" value="517" show="true" remark="一般在虚拟通道中选择遥测点，由程序写入具体值，表示程序最终收到的目标值【可能来自调度或者本地】"/>                                                                            
+    <Field id="4" name="AGC调节范围上限值" value="511" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>                                                                        
+    <Field id="5" name="AGC调节范围下限值" value="512" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>                                                                        
+    <Field id="6" name="调节死区遥测索引" value="513" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>                                                                           
+    <Field id="7" name="站内损耗遥测索引" value="516" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>
+    <Field id="8" name="1Min变化率遥测索引" value="514" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>
+    <Field id="9" name="10min变化率遥测索引" value="515" show="true" remark="一般在虚拟通道中选择遥测点，遥测列表中该值已经设置。"/>
+  </Record>
+  <Record id="5" name="遥信点定义">
+    <Field id="1" name="AGC投入远方控制" value="65" show="true"/>
+    <Field id="2" name="AGC投退信号" value="66" show="true"/>
+    <Field id="3" name="AGC投入闭环控制" value="67" show="true"/>
+    <Field id="4" name="有功控制闭锁" value="-1" show="true"/>
+    <Field id="5" name="AGC上升闭锁" value="68" show="true"/>
+    <Field id="6" name="AGC下降闭锁" value="69" show="true"/>
+    <Field id="7" name="上传省调通道状态遥信索引" value="266" show="true"/>
+    <Field id="8" name="采集远动通道状态遥信索引" value="265" show="true"/>
+    <Field id="9" name="逆变器通道状态遥信索引" value="265" show="true"/>
+    <Field id="10" name="计划曲线读成功标识" value="130" show="true"/>
+  </Record>
+</Setting>
+ 

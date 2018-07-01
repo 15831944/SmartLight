@@ -1,0 +1,136 @@
+14:47:56 lookup begin ,lib name=Comm3761.dll
+
+14:47:56 load begin 
+
+14:48:11 lookup begin ,lib name=Comm3761.dll
+
+14:48:11 load begin 
+
+14:48:39 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:48:39 load begin 
+
+14:48:53 lookup begin ,lib name=ออออออออออออออออออออออออออออออออออออออออออออออออออออ.dll
+
+14:48:53 load begin 
+
+14:48:53 ERROR:LIB: unable to load library: ออออออออออออออออออออออออออออออออออออออออออออออออออออ.dll info: `๛ฎ
+
+14:48:53 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+
+14:50:46 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:50:46 load begin 
+
+14:51:00 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:51:00 load begin 
+
+14:52:12 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:52:12 load begin 
+
+14:52:20 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:52:20 load begin 
+
+14:54:42 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:54:42 load begin 
+
+14:54:55 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:54:55 load begin 
+
+14:56:18 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:56:18 load begin 
+
+14:57:53 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:57:53 load begin 
+
+14:59:58 lookup begin ,lib name=CommHttpDBQH.dll
+
+14:59:58 load begin 
+
+15:00:21 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:00:21 load begin 
+
+15:39:37 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:39:37 load begin 
+
+15:39:47 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:39:47 load begin 
+
+15:40:44 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:40:44 load begin 
+
+15:40:50 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:40:50 load begin 
+
+15:41:30 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:41:30 load begin 
+
+15:41:40 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:41:40 load begin 
+
+15:42:19 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:42:19 load begin 
+
+15:42:28 lookup begin ,lib name=CommHttpDBQH.dll
+
+15:42:28 load begin 
+
+16:00:40 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:00:40 load begin 
+
+16:01:34 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:01:34 load begin 
+
+16:01:40 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:01:40 load begin 
+
+16:10:57 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:10:57 load begin 
+
+16:12:27 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:12:27 load begin 
+
+16:16:08 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:16:08 load begin 
+
+16:22:53 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:22:53 load begin 
+
+16:23:05 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:23:05 load begin 
+
+16:23:53 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:23:53 load begin 
+
+16:25:38 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:25:38 load begin 
+
+16:26:59 lookup begin ,lib name=CommHttpDBQH.dll
+
+16:26:59 load begin 
+

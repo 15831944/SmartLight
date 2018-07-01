@@ -1,0 +1,18 @@
+to_srcdir:=../../
+include $(to_srcdir)make.rules
+DEBUG=-g
+CFLAGS =$(OPTIMIZE_FLAG) $(BYTE_PRECISION_DEF) $(OS_DEF) $(DEBUG) -D_TS_ERRNO -Wall -std=c++0x -I../../rtdb/include -I../../rtdb/headfile -I../../scada/include  -I../../Include/commFrameInclude -I/usr/local/include -I../../CFuncUtil \
+-I../../Include/tinyxmlInclude -I../../Include -fPIC
+LIBS = -L../../../bin  -ldl -lpthread -lcommframe -ltinyxml -lRealDB -lScadaProcess -lCFuncUtil -lcurl -ljson_linux-gcc-4.6_libmt $(EXTRA_LIBS)
+
+SOURCES=Q_ProtocolLight.cpp
+
+shared:
+	$(C++) $(CFLAGS) $(SOURCES)  -fPIC -o ../../../bin/libCommLightStd.so -shared $(LIBS)
+	
+release:shared
+	$(STRIP) -s ../../../bin/libCommLightStd.so
+
+clean:
+	rm -f *.o
+	rm -f ../../../bin/libCommLightStd.so

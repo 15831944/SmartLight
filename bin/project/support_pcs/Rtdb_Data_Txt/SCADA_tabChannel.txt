@@ -1,0 +1,4 @@
+ID32,strName,iFlag,iType,uProtocolID,strProtocolPara,strLinkParam,iStatus,iStatusID,tStartTime,strTransFile,iRunAttr
+1,虚拟通道,0,5,0,null,TCP,0,1,2012-6-1 23:30:41,,0
+2,采集徐官屯通讯管理机,1,1,4,modbus_master_hr1.xml,TCP,0,2,2012-6-1 23:30:41,,0
+

@@ -1,0 +1,26 @@
+arr_program=($(sed -n 1p ldns-program))
+strp=$(sed -n 2p ldns-program)
+length=${#arr_program[@]}
+index=$length
+for((i=0;i<$length;i++))
+do
+((index--))
+sleep 1
+program=(${arr_program[$index]})
+number=`ps -ef|grep $program|grep -v grep|wc -l`
+if [ $number -ge 1 ] ; then
+	pid=`ps -ef|grep $program|grep -v grep|awk '{print $2}'`;
+	if echo $strp | sudo -S kill -9 $pid ; then
+		echo "$program stopped"
+	else
+		echo "Unable to stop $program"
+	fi
+	sleep 1
+fi
+done
+exit
+
+
+
+
+

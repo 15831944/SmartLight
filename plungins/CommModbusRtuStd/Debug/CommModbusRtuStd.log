@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/12/6 11:21:33。
+     1>项目“F:\Gkpro\program\ldns\plungins\CommModbusRtuStd\CommModbusRtuStd.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\CommModbusRtuStd.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\CommModbusRtuStd.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin CommFrame.lib tinyxml.lib RealDB.lib ScadaProcess.lib Log.lib /DEF:"CommModbusRtuStd.def" /MANIFEST /ManifestFile:"Debug\CommModbusRtuStd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Gkpro\program\ldns\Bin\CommModbusRtuStd.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Bin\CommModbusRtuStd.lib" /MACHINE:X86 /DLL Debug\CommModbusRtuStd.res
+         Debug\CommModbusRtuStd.dll.embed.manifest.res
+         Debug\Q_protocolModbusRtuStd.obj
+            正在创建库 ..\..\Bin\CommModbusRtuStd.lib 和对象 ..\..\Bin\CommModbusRtuStd.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CommModbusRtuStd.dll.embed.manifest" /manifest Debug\CommModbusRtuStd.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         CommModbusRtuStd.vcxproj -> F:\Gkpro\program\ldns\plungins\CommModbusRtuStd\..\..\Bin\CommModbusRtuStd.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CommModbusRtuStd.unsuccessfulbuild”。
+         正在对“Debug\CommModbusRtuStd.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Gkpro\program\ldns\plungins\CommModbusRtuStd\CommModbusRtuStd.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.38

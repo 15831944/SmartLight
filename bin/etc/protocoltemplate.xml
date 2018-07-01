@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Setting>
+    <Field id="1" descr="虚拟通道使用" type="5" protocol="NULL" template=""/>
+    <Field id="2" descr="正泰104主站规约扩展计划曲线" type="1" protocol="IEC104_CHNT" template="iec104_master.xml"/>
+    <Field id="3" descr="标准104规约主站" type="1" protocol="IEC104_STD" template="iec104_master.xml"/>
+    <Field id="4" descr="标准104规约子站" type="3" protocol="IEC104_STD" template="iec104_slave.xml"/>
+    <Field id="5" descr="南瑞104规给扩展计划曲线" type="3" protocol="IEC104_NARI" template="iec104_slave.xml"/>
+    <Field id="6" descr="MODBUS-TCP主站规约" type="1" protocol="MODBUS-TCP" template="modbus_master.xml"/>
+    <Field id="7" descr="MODBUS-TCP子站规约" type="3" protocol="MODBUS-TCP" template="modbus.xml"/>
+    <Field id="8" descr="MODBUS子站规约" type="4" protocol="Modbus" template="modbus.xml"/>
+    <Field id="9" descr="标准Modbus-RTU规约主站" type="1" protocol="MODBUS-RTU" template="modbus_rtu.xml"/>
+    <Field id="10" descr="标准Modbus-RTU规约子站" type="3" protocol="MODBUS-RTU" template="modbus_rtu.xml"/>
+    <Field id="11" descr="标准CDT规约" type="1" protocol="CDT_STD" template="cdt_std.xml"/>
+    <Field id="12" descr="标准串口IEC103规约" type="1" protocol="IEC103_STD" template="iec103.xml"/>
+    <Field id="13" descr="敦煌CDT多通道规约" type="1" protocol="CDT_CHINT3" template="cdt_chint3.xml"/>
+    <Field id="14" descr="南自103子站规约" type="3" protocol="IEC103_SLAVE" template="iec103.xml"/>
+    <Field id="15" descr="组态计划曲线规约" type="4" protocol="ModbusPlanCurve" template="modbuscurve.xml"/>
+    <Field id="16" descr="拓风Modbus-RTU规约" type="1" protocol="MODBUS-RTU-TF" template="modbus_master.xml"/>
+    <Field id="17" descr="银湖Modbus-RTU规约" type="1" protocol="MODBUS-RTU-YH" template="modbus_master.xml"/>
+    <Field id="18" descr="正泰CDT采集规约" type="1" protocol="CDT_CHINT" template="cdt_chint.xml"/>
+    <Field id="19" descr="正泰CDT子站规约" type="1" protocol="CDT_CHINT2" template="cdt_chint2.xml"/>
+</Setting>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="基本配置">
+        <Field id="1" name="设备地址" value="1" type="INT" />
+        <Field id="2" name="遥信类型" value="1" type="ENUM">
+            <Option id="1" name="单点" />
+            <Option id="3" name="双点" />
+        </Field>
+        <Field id="3" name="遥测类型" value="13" type="ENUM">
+            <Option id="21" name="无品质归一值" />
+            <Option id="13" name="单精度浮点数" />
+        </Field>
+        <Field id="11" name="串口号" value="COM1" type="STRING" />
+        <Field id="12" name="波特率" value="9600" type="INT" />
+        <Field id="13" name="数据位" value="8" type="INT" />
+        <Field id="14" name="停止位" value="0" type="ENUM">
+            <Option id="0" name="1" />
+            <Option id="1" name="1.5" />
+            <Option id="2" name="2" />
+        </Field>
+        <!--0\1\2表示1、1.5、2-->
+        <Field id="15" name="校验位" value="0" type="ENUM">
+            <Option id="0" name="无校验" />
+            <Option id="1" name="奇校验" />
+            <Option id="2" name="偶校验" />
+        </Field>
+        <!--0、1、2表示无校验、奇校验、偶校验-->
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+</Setting>

@@ -1,0 +1,118 @@
+
+CC=g++
+
+# for Sun
+#LFLAGS = -G -lsocket -lnsl -lpthread -lrt -lstdc++ -g
+
+# for Alpha
+LFLAGS = -shared -lpthread -lstdc++ -ltermcap -lm -lmld -lmach -g
+
+# for IBM
+# LFLAGS = -shared -lnsl -lpthread -g
+
+LIBRARY = -L$(CSC2000)/lib
+
+CINCLUDE = -DUNIX_ENV -DTRU64_OS -I.\
+	   -I$(CSC2000)/src/CProject/support/include \
+	   -I$(CSC2000)/src/CProject/support/headfile \
+	   -D_REENTRANT \
+	   -D_THREAD_SAFE \
+
+OBJS = \
+	ShareMemory.o \
+	MutexEx.o \
+	EventEx.o \
+	ThreadMutex.o \
+	ThreadEvent.o \
+	DataValue.o \
+	SocketEx.o \
+	Formula.o \
+	DBField.o \
+	DBTable.o \
+	DataBase.o \
+	MultiDataBase.o \
+	SysManager.o \
+	SystemTable.o \
+	ProcessEvent.o \
+	CmdProcess.o \
+	CmdToRtServer.o \
+	RtdbDefFile.o \
+	MsgDealer.o \
+	TcpListener.o \
+	TcpReceiver.o \
+	TcpWorker.o \
+	UdpWorker.o \
+	MUdpWorker.o \
+	gFunction.o \
+	ID32Base.o \
+	RtdbFtp.o \
+	GoBackOS.o \
+	ComputerWatch.o \
+	RtdbFile.o 
+
+$(CSC2000)/lib/RealDB.so: $(OBJS)
+	$(CC) $(LIBRARY) $(CINCLUDE) -o $(CSC2000)/lib/libRealDB.so $(OBJS) $(LFLAGS)
+
+# Compile source files into .o's
+SocketEx.o: SocketEx.cpp
+	$(CC) -c  $(CINCLUDE) -o SocketEx.o SocketEx.cpp -g
+ShareMemory.o: ShareMemory.cpp
+	$(CC) -c  $(CINCLUDE) -o ShareMemory.o ShareMemory.cpp -g
+MutexEx.o: MutexEx.cpp
+	$(CC) -c  $(CINCLUDE) -o MutexEx.o MutexEx.cpp -g
+EventEx.o: EventEx.cpp
+	$(CC) -c  $(CINCLUDE) -o EventEx.o EventEx.cpp -g
+ThreadMutex.o: ThreadMutex.cpp
+	$(CC) -c  $(CINCLUDE) -o ThreadMutex.o ThreadMutex.cpp -g
+ThreadEvent.o: ThreadEvent.cpp
+	$(CC) -c  $(CINCLUDE) -o ThreadEvent.o ThreadEvent.cpp -g
+DataValue.o: DataValue.cpp
+	$(CC) -c  $(CINCLUDE) -o DataValue.o DataValue.cpp -g
+Formula.o: Formula.cpp
+	$(CC) -c  $(CINCLUDE) -o Formula.o Formula.cpp -g
+DBField.o: DBField.cpp
+	$(CC) -c  $(CINCLUDE) -o DBField.o DBField.cpp -g
+DBTable.o: DBTable.cpp
+	$(CC) -c  $(CINCLUDE) -o DBTable.o DBTable.cpp -g
+DataBase.o: DataBase.cpp
+	$(CC) -c  $(CINCLUDE) -o DataBase.o DataBase.cpp -g
+MultiDataBase.o: MultiDataBase.cpp
+	$(CC) -c  $(CINCLUDE) -o MultiDataBase.o MultiDataBase.cpp -g
+SysManager.o: SysManager.cpp
+	$(CC) -c  $(CINCLUDE) -o SysManager.o SysManager.cpp -g
+SystemTable.o: SystemTable.cpp
+	$(CC) -c  $(CINCLUDE) -o SystemTable.o SystemTable.cpp -g
+ProcessEvent.o: ProcessEvent.cpp
+	$(CC) -c  $(CINCLUDE) -o ProcessEvent.o ProcessEvent.cpp -g
+CmdProcess.o: CmdProcess.cpp
+	$(CC) -c  $(CINCLUDE) -o CmdProcess.o CmdProcess.cpp -g
+CmdToRtServer.o: CmdToRtServer.cpp
+	$(CC) -c  $(CINCLUDE) -o CmdToRtServer.o CmdToRtServer.cpp -g
+RtdbDefFile.o: RtdbDefFile.cpp
+	$(CC) -c  $(CINCLUDE) -o RtdbDefFile.o RtdbDefFile.cpp -g
+MsgDealer.o: MsgDealer.cpp
+	$(CC) -c  $(CINCLUDE) -o MsgDealer.o MsgDealer.cpp -g
+TcpListener.o: TcpListener.cpp
+	$(CC) -c  $(CINCLUDE) -o TcpListener.o TcpListener.cpp -g
+TcpReceiver.o: TcpReceiver.cpp
+	$(CC) -c  $(CINCLUDE) -o TcpReceiver.o TcpReceiver.cpp -g
+TcpWorker.o: TcpWorker.cpp
+	$(CC) -c  $(CINCLUDE) -o TcpWorker.o TcpWorker.cpp -g
+UdpWorker.o: UdpWorker.cpp
+	$(CC) -c  $(CINCLUDE) -o UdpWorker.o UdpWorker.cpp -g
+MUdpWorker.o: MUdpWorker.cpp
+	$(CC) -c  $(CINCLUDE) -o MUdpWorker.o MUdpWorker.cpp -g
+gFunction.o: gFunction.cpp
+	$(CC) -c  $(CINCLUDE) -o gFunction.o gFunction.cpp -g
+ID32Base.o: ID32Base.cpp
+	$(CC) -c  $(CINCLUDE) -o ID32Base.o ID32Base.cpp -g
+RtdbFile.o: RtdbFile.cpp
+	$(CC) -c  $(CINCLUDE) -o RtdbFile.o RtdbFile.cpp -g
+RtdbFtp.o: RtdbFtp.cpp
+	$(CC) -c  $(CINCLUDE) -o RtdbFtp.o RtdbFtp.cpp -g
+GoBackOS.o: GoBackOS.cpp
+	$(CC) -c  $(CINCLUDE) -o GoBackOS.o GoBackOS.cpp -g
+ComputerWatch.o: ComputerWatch.cpp
+	$(CC) -c  -DHAVE_GETOPT -DORDER $(CINCLUDE) -o ComputerWatch.o ComputerWatch.cpp -g
+clean:
+	rm -f $(OBJS) 

@@ -1,0 +1,5 @@
+ID32,uTuID,strID,strName,lDPUID,iNoInDPU,LogicalClose,LogicalOpen,ulYXID32,selecttime,exectime,iZF,izfTuID,izfDPUID,izfNoInDPU,izfProcessID,iType,lFlag,iDataType,iIndex,uAlarmClass,iexecret,iMaxSelectTime,iMaxExecuteTime,iCancelMaxTime
+1,4,备用,备用,1,129,0,0,0,0-0-0 0:0:0,0-0-0 0:0:0,0,0,0,0,4,1,0,287,1,0,0,10,10,10
+2,4,备用,备用,1,130,0,0,0,0-0-0 0:0:0,0-0-0 0:0:0,0,0,0,0,4,1,0,287,2,0,0,10,10,10
+3,4,备用,备用,1,131,0,0,0,0-0-0 0:0:0,0-0-0 0:0:0,0,0,0,0,4,1,0,287,3,0,0,10,10,10
+

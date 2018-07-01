@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Setting>
+    <database ID="1" Name="SYSTEM" Alias="系统库" MaxRcds="4" type="1">
+        <table ID="101" Name="NetNode" Alias="节点表" MaxRcds="2" PriKey="" path="" index="0" flag="0" fieldnum="14">
+            <fields ID="10100" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="10101" Name="strName" DataType="STRING" Default="" Size="20" Desc="名称" index="1" flag="0" keygroup="1" shift="-1" />
+            <fields ID="10102" Name="strDescription" DataType="STRING" Default="" Size="40" Desc="描述" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10103" Name="strIP1" DataType="STRING" Default="" Size="20" Desc="1网IP地址" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10104" Name="strIP2" DataType="STRING" Default="" Size="20" Desc="2网IP地址" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10105" Name="iType" DataType="INT" Default="" Size="4" Desc="类型" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10106" Name="tStartTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="启动时间" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10107" Name="tActiveTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="活动时间" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10108" Name="iStatus" DataType="INT" Default="" Size="4" Desc="运行状态" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10109" Name="uMaxMsgID" DataType="INT" Default="0" Size="4" Desc="本机消息最大ID" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10110" Name="iCPU" DataType="INT" Default="0" Size="4" Desc="CPU使用情况" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10111" Name="iDisk" DataType="INT" Default="0" Size="4" Desc="磁盘使用情况" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10112" Name="iMemory" DataType="INT" Default="0" Size="4" Desc="内存使用情况" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10113" Name="iHeart" DataType="INT" Default="0" Size="4" Desc="节点心跳" index="13" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="102" Name="Process" Alias="进程表" MaxRcds="20" PriKey="" path="" index="1" flag="0" fieldnum="8">
+            <fields ID="10200" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="10201" Name="iProcessID" DataType="INT" Default="" Size="4" Desc="进程ID" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10202" Name="iType" DataType="INT" Default="" Size="4" Desc="进程类型" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10203" Name="uNodeID" DataType="UINT" Default="" Size="4" Desc="所属节点ID" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10204" Name="iFlag" DataType="INT" Default="" Size="4" Desc="标志" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10205" Name="tStartTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="启动时间" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10206" Name="tActiveTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="最新时间" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10207" Name="iHeart" DataType="INT" Default="0" Size="4" Desc="进程心跳" index="7" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="103" Name="Formula" Alias="公式表" MaxRcds="300" PriKey="" path="" index="4" flag="0" fieldnum="7">
+            <fields ID="10500" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="10501" Name="strName" DataType="STRING" Default="" Size="40" Desc="名称" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10502" Name="strExpression" DataType="STRING" Default="" Size="240" Desc="公式表达式" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10503" Name="iVariableNumber" DataType="INT" Default="" Size="4" Desc="变量个数" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10504" Name="strVariableArray" DataType="STRING" Default="" Size="600" Desc="变量数组" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10505" Name="nDataBaseID" DataType="UINT" Default="" Size="4" Desc="数据库ID" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10506" Name="lFlag" DataType="UINT" Default="" Size="4" Desc="标志" index="6" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="104" Name="AppConfig" Alias="应用配置信息" MaxRcds="200" PriKey="" path="" index="7" flag="0" fieldnum="5">
+            <fields ID="10800" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="10801" Name="iProcessType" DataType="INT" Default="" Size="4" Desc="进程类型" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10802" Name="strKey" DataType="STRING" Default="" Size="32" Desc="配置项" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10803" Name="iValue" DataType="INT" Default="" Size="4" Desc="整形值" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="10804" Name="strValue" DataType="STRING" Default="" Size="100" Desc="字符串值" index="4" flag="0" keygroup="-1" shift="-1" />
+        </table>
+    </database>
+    <database ID="21" Name="SCADA" Alias="CCS" MaxRcds="33" type="21">
+        <table ID="2101" Name="Analog" Alias="模拟量" MaxRcds="350" PriKey="" path="" index="4" flag="3" fieldnum="54">
+            <fields ID="210100" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="8" keygroup="0" shift="-1" />
+            <fields ID="210101" Name="uTuID" DataType="UINT" Default="" Size="4" Desc="采集单元ID" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210102" Name="strID" DataType="STRING" Default="A" Size="32" Desc="名称" index="2" flag="0" keygroup="1" shift="-1" />
+            <fields ID="210103" Name="strName" DataType="STRING" Default="" Size="80" Desc="描述" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210104" Name="KKS" DataType="STRING" Default="" Size="20" Desc="KKS码" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210105" Name="fVal" DataType="FLOAT" Default="" Size="4" Desc="工程值" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210106" Name="iType" DataType="UINT" Default="" Size="4" Desc="类型" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210107" Name="strUnit" DataType="STRING" Default="" Size="12" Desc="单位" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210108" Name="fRaw" DataType="INT" Default="" Size="4" Desc="原始值" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210109" Name="fCoeff" DataType="FLOAT" Default="" Size="4" Desc="系数" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210110" Name="fOffset" DataType="FLOAT" Default="" Size="4" Desc="偏移量" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210111" Name="fLowL" DataType="FLOAT" Default="" Size="4" Desc="下限" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210112" Name="fHighL" DataType="FLOAT" Default="" Size="4" Desc="上限" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210113" Name="fLowL2" DataType="FLOAT" Default="" Size="4" Desc="下限二" index="13" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210114" Name="fHighL2" DataType="FLOAT" Default="" Size="4" Desc="上限二" index="14" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210115" Name="fDeadSec" DataType="FLOAT" Default="" Size="4" Desc="死区" index="15" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210116" Name="fVarSec" DataType="FLOAT" Default="" Size="4" Desc="变化死区" index="16" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210117" Name="fLimitSec" DataType="FLOAT" Default="" Size="4" Desc="限值死区" index="17" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210118" Name="fValidLL" DataType="FLOAT" Default="" Size="4" Desc="工程值下限" index="18" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210119" Name="fValidHL" DataType="FLOAT" Default="" Size="4" Desc="工程值上限" index="19" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210120" Name="fVariator" DataType="FLOAT" Default="" Size="4" Desc="变化率" index="20" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210121" Name="fRawLL" DataType="FLOAT" Default="" Size="4" Desc="原始值下限" index="21" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210122" Name="fRawHL" DataType="FLOAT" Default="" Size="4" Desc="原始值上限" index="22" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210123" Name="fDayMaxV" DataType="FLOAT" Default="" Size="4" Desc="日最大值" index="23" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210124" Name="fDayMinV" DataType="FLOAT" Default="" Size="4" Desc="日最小值" index="24" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210125" Name="fDayAveV" DataType="FLOAT" Default="" Size="4" Desc="日平均值" index="25" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210126" Name="tDayMaxTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="日最大值出现时间" index="26" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210127" Name="tDayMinTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="日最小值出现时间" index="27" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210128" Name="strLLWav" DataType="STRING" Default="" Size="20" Desc="越下限声音" index="28" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210129" Name="strHLWav" DataType="STRING" Default="" Size="20" Desc="越上限声音" index="29" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210130" Name="strLLWav2" DataType="STRING" Default="" Size="20" Desc="越下下限声音" index="30" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210131" Name="strHLWav2" DataType="STRING" Default="" Size="20" Desc="越上上限声音" index="31" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210132" Name="strNorWav" DataType="STRING" Default="" Size="20" Desc="越限恢复声音" index="32" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210133" Name="lFlag" DataType="INT" Default="" Size="4" Desc="静态标志" index="33" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210134" Name="iAlmClass" DataType="UINT" Default="" Size="4" Desc="越限报警等级" index="34" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210135" Name="iAlmClass2" DataType="UINT" Default="" Size="4" Desc="越限限报警等级" index="35" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210136" Name="iSameTimeSpan" DataType="INT" Default="" Size="4" Desc="数据累计不变时长" index="36" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210137" Name="tSnapTime" DataType="TIME" Default="2004年10月10日 6时6分6秒" Size="16" Desc="时标量" index="37" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210138" Name="dvtype" DataType="UINT" Default="" Size="4" Desc="设备类型" index="38" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210139" Name="dvno" DataType="UINT" Default="" Size="4" Desc="设备号" index="39" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210140" Name="FormulaID32" DataType="INT" Default="" Size="4" Desc="公式表ID" index="40" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210141" Name="lDynaFlag" DataType="INT" Default="" Size="4" Desc="动态标志" index="41" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210142" Name="iSavePeriod" DataType="INT" Default="" Size="4" Desc="存储周期" index="42" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210143" Name="iVariatorNum" DataType="INT" Default="" Size="4" Desc="变化次数" index="43" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210144" Name="lDPUID" DataType="INT" Default="" Size="4" Desc="所属DPU" index="44" flag="68" keygroup="2" shift="24" />
+            <fields ID="210145" Name="iNoInDPU" DataType="INT" Default="" Size="4" Desc="IO在DPU中的编号" index="45" flag="68" keygroup="2" shift="16" />
+            <fields ID="210146" Name="iIOOrder" DataType="INT" Default="" Size="4" Desc="序号" index="46" flag="68" keygroup="2" shift="0" />
+            <fields ID="210147" Name="iDataType" DataType="INT" Default="" Size="4" Desc="数据类型" index="47" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210148" Name="iIndex" DataType="INT" Default=" -1" Size="4" Desc="在厂站中的序号" index="48" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210149" Name="AOR" DataType="INT" Default="" Size="4" Desc="责任区" index="49" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210150" Name="iOnline" DataType="INT" Default="" Size="4" Desc="在线计数" index="50" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210151" Name="noname1" DataType="STRING" Default="" Size="40" Desc="备用字段1" index="51" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210152" Name="noname2" DataType="STRING" Default="" Size="40" Desc="备用字段2" index="52" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210153" Name="noname3" DataType="STRING" Default="" Size="40" Desc="备用字段3" index="53" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="2102" Name="Digit" Alias="数字量" MaxRcds="900" PriKey="" path="" index="5" flag="3" fieldnum="37">
+            <fields ID="210200" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="8" keygroup="0" shift="-1" />
+            <fields ID="210201" Name="uTuID" DataType="UINT" Default="" Size="4" Desc="采集单元ID" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210202" Name="strID" DataType="STRING" Default="D" Size="32" Desc="名称" index="2" flag="0" keygroup="1" shift="-1" />
+            <fields ID="210203" Name="strName" DataType="STRING" Default="" Size="80" Desc="描述" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210204" Name="KKS" DataType="STRING" Default="" Size="20" Desc="KKS码" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210205" Name="iVal" DataType="INT" Default="" Size="4" Desc="工程值" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210206" Name="iType" DataType="UINT" Default="" Size="4" Desc="类型" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210207" Name="iRaw" DataType="INT" Default="" Size="4" Desc="原始值" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210208" Name="iLastTime" DataType="INT" Default="" Size="4" Desc="去抖时间(秒)" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210209" Name="lFlag" DataType="INT" Default="" Size="4" Desc="静态标志" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210210" Name="strOpenWavID" DataType="STRING" Default="" Size="20" Desc="分报警声" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210211" Name="strCloseWavID" DataType="STRING" Default="" Size="20" Desc="合报警声" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210212" Name="strAcciWavID" DataType="STRING" Default="" Size="20" Desc="事故报警声" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210213" Name="iOpenSum" DataType="INT" Default="" Size="4" Desc="统计分次数" index="13" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210214" Name="iCloseSum" DataType="INT" Default="" Size="4" Desc="统计合次数" index="14" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210215" Name="iRepairOS" DataType="INT" Default="" Size="4" Desc="统计检修分次数" index="15" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210216" Name="iRepairCS" DataType="INT" Default="" Size="4" Desc="统计检修合次数" index="16" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210217" Name="iAcciOS" DataType="INT" Default="" Size="4" Desc="统计事故分次数" index="17" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210218" Name="iPredefineSum" DataType="INT" Default="" Size="4" Desc="报警预置故障次数" index="18" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210219" Name="iAlmClass" DataType="UINT" Default="" Size="4" Desc="报警等级" index="19" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210220" Name="ulActionDecID32" DataType="UINT" Default="0" Size="4" Desc="变位描述ID32" index="20" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210221" Name="lDynaFlag" DataType="INT" Default="" Size="4" Desc="动态标志" index="21" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210222" Name="tSnapTime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="时标量" index="22" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210223" Name="dvtype" DataType="UINT" Default="" Size="4" Desc="设备类型" index="23" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210224" Name="dvno" DataType="UINT" Default="" Size="4" Desc="设备号" index="24" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210225" Name="iAcciOSAlarm" DataType="INT" Default="" Size="4" Desc="报警事故次数" index="25" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210226" Name="FormulaID32" DataType="INT" Default="" Size="4" Desc="公式表ID" index="26" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210227" Name="lDPUID" DataType="INT" Default="" Size="4" Desc="所属DPU" index="27" flag="68" keygroup="2" shift="24" />
+            <fields ID="210228" Name="iNoInDPU" DataType="INT" Default="" Size="4" Desc="IO在DPU中的编号" index="28" flag="68" keygroup="2" shift="16" />
+            <fields ID="210229" Name="iIOOrder" DataType="INT" Default="" Size="4" Desc="序号" index="29" flag="68" keygroup="2" shift="0" />
+            <fields ID="210230" Name="iDataType" DataType="INT" Default="" Size="4" Desc="数据类型" index="30" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210231" Name="iIndex" DataType="INT" Default=" -1" Size="4" Desc="在厂站中的序号" index="31" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210232" Name="AOR" DataType="INT" Default="" Size="4" Desc="责任区" index="32" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210233" Name="iOnline" DataType="INT" Default="" Size="4" Desc="在线计数" index="33" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210234" Name="noname1" DataType="STRING" Default="" Size="40" Desc="备用字段1" index="34" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210235" Name="noname2" DataType="STRING" Default="" Size="40" Desc="备用字段2" index="35" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210236" Name="noname3" DataType="STRING" Default="" Size="40" Desc="备用字段3" index="36" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        
+        <table ID="2103" Name="Relay" Alias="遥控表" MaxRcds="500" PriKey="" path="" index="7" flag="3" fieldnum="24">
+            <fields ID="210300" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="8" keygroup="0" shift="-1" />
+            <fields ID="210301" Name="uTuID" DataType="UINT" Default="" Size="4" Desc="采集单元ID" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210302" Name="strID" DataType="STRING" Default="R" Size="32" Desc="名称" index="2" flag="0" keygroup="1" shift="-1" />
+            <fields ID="210303" Name="strName" DataType="STRING" Default="" Size="80" Desc="描述" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210304" Name="iIndex" DataType="INT" Default=" -1" Size="4" Desc="在厂站中的序号" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210305" Name="iType" DataType="INT" Default="" Size="4" Desc="类型" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210306" Name="ulYXID32" DataType="INT" Default="" Size="4" Desc="在遥信表中的ID" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210307" Name="LogicalClose" DataType="UINT" Default="" Size="4" Desc="逻辑控合" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210308" Name="LogicalOpen" DataType="UINT" Default="" Size="4" Desc="逻辑控分" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210309" Name="uAlarmClass" DataType="INT" Default="" Size="4" Desc="报警等级" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210310" Name="lFlag" DataType="INT" Default="" Size="4" Desc="标志" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210311" Name="dvtype" DataType="INT" Default="" Size="4" Desc="设备类型" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210312" Name="dvno" DataType="INT" Default="" Size="4" Desc="设备号" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210313" Name="last2time" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="上上次操作时间" index="13" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210314" Name="lasttime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="上次操作时间" index="14" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210315" Name="iMaxSelectTime" DataType="INT" Default="10" Size="4" Desc="选择最大时延(s)" index="15" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210316" Name="iMaxExecuteTime" DataType="INT" Default="20" Size="4" Desc="执行最大时延(s)" index="16" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210317" Name="iCancelMaxTime" DataType="INT" Default="30" Size="4" Desc="撤销最大时延(s)" index="17" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210318" Name="iMaxYTSpan" DataType="INT" Default="0" Size="4" Desc="两次遥调的最短时间间隔(s)" index="18" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210319" Name="lDPUID" DataType="INT" Default="" Size="4" Desc="所属DPU" index="19" flag="68" keygroup="2" shift="24" />
+            <fields ID="210320" Name="iNoInDPU" DataType="INT" Default="" Size="4" Desc="IO在DPU中的编号" index="20" flag="68" keygroup="2" shift="16" />
+            <fields ID="210321" Name="iIOOrder" DataType="INT" Default="" Size="4" Desc="序号" index="21" flag="68" keygroup="2" shift="0" />
+            <fields ID="210322" Name="iDataType" DataType="INT" Default="" Size="4" Desc="数据类型" index="22" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210323" Name="strKKS" DataType="STRING" Default="" Size="40" Desc="编号" index="23" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="2109" Name="SetPoint" Alias="遥调表" MaxRcds="100" PriKey="" path="" index="8" flag="3" fieldnum="19">
+            <fields ID="210900" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="8" keygroup="0" shift="-1" />
+            <fields ID="210901" Name="uTuID" DataType="UINT" Default="" Size="4" Desc="采集单元ID" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210902" Name="strID" DataType="STRING" Default="S" Size="32" Desc="名称" index="2" flag="0" keygroup="1" shift="-1" />
+            <fields ID="210903" Name="strName" DataType="STRING" Default="" Size="80" Desc="描述" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210904" Name="iIndex" DataType="INT" Default="" Size="4" Desc="在厂站中的序号" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210905" Name="ulYCID32" DataType="INT" Default="" Size="4" Desc="在遥测表中的ID" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210906" Name="LogicalID64" DataType="INT" Default="" Size="4" Desc="计算点索引" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210907" Name="iCurrentState" DataType="INT" Default="" Size="4" Desc="当前状态" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210908" Name="iHigh" DataType="INT" Default="" Size="4" Desc="最高状态" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210909" Name="iLow" DataType="INT" Default="" Size="4" Desc="最低状态" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210910" Name="lFlag" DataType="INT" Default="" Size="4" Desc="标志" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210911" Name="dvtype" DataType="INT" Default="" Size="4" Desc="设备类型" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210912" Name="dvno" DataType="INT" Default="" Size="4" Desc="设备号" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210913" Name="last2time" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="上上次操作时间" index="13" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210914" Name="lasttime" DataType="TIME" Default="2004-10-10 6:6:6" Size="16" Desc="上次操作时间" index="14" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210915" Name="lDPUID" DataType="INT" Default="" Size="4" Desc="所属DPU" index="15" flag="68" keygroup="2" shift="24" />
+            <fields ID="210916" Name="iNoInDPU" DataType="INT" Default="" Size="4" Desc="IO在DPU中的编号" index="16" flag="68" keygroup="2" shift="16" />
+            <fields ID="210917" Name="iIOOrder" DataType="INT" Default="" Size="4" Desc="实点序号" index="17" flag="68" keygroup="2" shift="0" />
+            <fields ID="210918" Name="iDataType" DataType="INT" Default="" Size="4" Desc="数据类型" index="18" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="2105" Name="Channel" Alias="通道表" MaxRcds="200" PriKey="" path="" index="9" flag="0" fieldnum="24">
+            <fields ID="210500" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="210501" Name="strName" DataType="STRING" Default="" Size="40" Desc="名称" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210502" Name="iFlag" DataType="INT" Default="" Size="4" Desc="标志位" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210503" Name="uDPUID" DataType="INT" Default="" Size="4" Desc="所属DPU" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210504" Name="iType" DataType="INT" Default="" Size="4" Desc="通道类型" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210505" Name="uProtocolID" DataType="INT" Default="" Size="4" Desc="通讯规约ID" index="5" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210506" Name="strParam" DataType="STRING" Default="" Size="128" Desc="通道参数" index="6" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210507" Name="strProtocolPara" DataType="STRING" Default="" Size="128" Desc="规约参数" index="7" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210508" Name="iComAddr" DataType="INT" Default="" Size="4" Desc="通讯地址" index="8" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210509" Name="uRunHostID" DataType="INT" Default="" Size="4" Desc="默认运行节点" index="9" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210510" Name="iStopValSet" DataType="INT" Default="" Size="4" Desc="通道停止的限值" index="10" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210511" Name="fErrMaxSet" DataType="FLOAT" Default="" Size="4" Desc="最大误码率限制" index="11" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210512" Name="iStatus" DataType="INT" Default="" Size="4" Desc="运行状态" index="12" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210513" Name="uRuningHostID" DataType="INT" Default="" Size="4" Desc="当前运行节点" index="13" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210514" Name="iCorrFrameNum" DataType="INT" Default="" Size="4" Desc="正确帧数" index="14" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210515" Name="iErrFrameNum" DataType="INT" Default="" Size="4" Desc="错误帧数" index="15" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210516" Name="fErrRateNum" DataType="FLOAT" Default="" Size="4" Desc="误码率" index="16" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210517" Name="tStartTime" DataType="TIME" Default="" Size="16" Desc="启用时间" index="17" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210518" Name="strTransFile" DataType="STRING" Default="" Size="40" Desc="转发文件名" index="18" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210519" Name="uGroupID" DataType="INT" Default="" Size="4" Desc="通道组" index="19" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210520" Name="iRunAttr" DataType="INT" Default="" Size="4" Desc="通道动态属性" index="20" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210521" Name="iReserve1" DataType="INT" Default="" Size="4" Desc="保留参数1" index="21" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210522" Name="iReserve2" DataType="INT" Default="" Size="4" Desc="保留参数2" index="22" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210523" Name="iReserve3" DataType="INT" Default="" Size="4" Desc="保留参数3" index="23" flag="0" keygroup="-1" shift="-1" />
+        </table>
+        <table ID="2106" Name="Protocol" Alias="规约表" MaxRcds="20" PriKey="" path="" index="10" flag="0" fieldnum="6">
+            <fields ID="210600" Name="ID32" DataType="UINT" Default="" Size="4" Desc="内部ID32" index="0" flag="0" keygroup="0" shift="-1" />
+            <fields ID="210601" Name="strName" DataType="STRING" Default="" Size="24" Desc="名称" index="1" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210602" Name="strDLLName" DataType="STRING" Default="" Size="48" Desc="规约库名" index="2" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210603" Name="strClassName" DataType="STRING" Default="" Size="48" Desc="规约类名" index="3" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210604" Name="iProtocolType" DataType="INT" Default="" Size="4" Desc="规约类型" index="4" flag="0" keygroup="-1" shift="-1" />
+            <fields ID="210605" Name="iProtocolSubType" DataType="INT" Default="" Size="4" Desc="规约子类型" index="5" flag="0" keygroup="-1" shift="-1" />
+        </table>
+    </database>
+</Setting>

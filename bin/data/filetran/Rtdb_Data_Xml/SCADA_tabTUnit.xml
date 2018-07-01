@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Field ID32="1" uStationID="1" strID="ch1" strName="通道           " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="1" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="2" uStationID="2" strID="ch1" strName="组态通道       " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="2" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="3" uStationID="3" strID="ch1" strName="SVG通道        " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="3" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="4" uStationID="4" strID="ch1" strName="上传调度(主)    " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="4" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="5" uStationID="5" strID="ch1" strName="1#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="5" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="6" uStationID="6" strID="ch1" strName="2#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="6" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="7" uStationID="7" strID="ch1" strName="3#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="7" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="8" uStationID="8" strID="ch1" strName="4#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="8" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="9" uStationID="9" strID="ch1" strName="5#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="9" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="10" uStationID="10" strID="ch1" strName="6#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="10" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="11" uStationID="11" strID="ch1" strName="7#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="11" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="12" uStationID="12" strID="ch1" strName="8#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="12" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="13" uStationID="13" strID="ch1" strName="9#逆变器室通道 " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="13" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="14" uStationID="14" strID="ch1" strName="10#逆变器室通道" iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="14" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="15" uStationID="15" strID="ch1" strName="综自通道(35kv) " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="15" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="16" uStationID="16" strID="ch1" strName="虚拟通道       " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="16" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="17" uStationID="17" strID="ch1" strName="上传调度（备）    " iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="17" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="18" uStationID="18" strID="ch1" strName="agc曲线" iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="18" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+    <Field ID32="19" uStationID="19" strID="ch1" strName="avc曲线" iType="1" lFlag="1" iStationAddr="1" dvtype="1" dvno="1" iStatus="1" iStatusID="19" iRecordFlag="0" iRecordBegin="0" iRecordEnd="0" />
+</Setting>

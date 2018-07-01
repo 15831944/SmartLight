@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <!--说明：与正泰控制通道二,使用规约网络cdt-->
+    <Record id="1" name="基本配置">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="主站" />
+            <Option id="2" name="子站" />
+        </Field>
+        <Field id="2" name="本站端站地址" value="1" type="INT" />
+        <Field id="3" name="对端01通道的IP地址" value="192.168.0.2" type="STRING" />
+        <Field id="4" name="对端01通道的端口号" value="6001" type="INT" />
+        <Field id="5" name="对端01通道的站地址" value="3" type="INT" />
+        <Field id="6" name="对端02通道的IP地址" value="" type="STRING" />
+        <Field id="7" name="对端02通道的端口号" value="" type="INT" />
+        <Field id="8" name="对端02通道的站地址" value="" type="INT" />
+        <Field id="9" name="处理数据间隔(单位:毫秒)" value="10" type="INT" />
+        <Field id="10" name="命令无返回最大超时时间(单位:秒)" value="5" type="INT" />
+        <Field id="11" name="命令无返回处理策略" value="1" type="ENUM">
+            <Option id="1" name="删除命令" />
+        </Field>
+        <Field id="12" name="串口名" value="COM5" type="STRING" />
+        <Field id="13" name="波特率" value="9600" type="INT" />
+        <!--说明：校验位 0无校验 1奇校验 2偶校验-->
+        <Field id="14" name="校验位" value="0" type="INT" />
+        <Field id="15" name="数据位" value="8" type="INT" />
+        <!--说明：/* 0,1,2 = 1, 1.5, 2 */ 0代表1,1代表1.5，2代表2-->
+        <Field id="16" name="停止位" value="0" type="INT" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印输出规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="1" type="INT" />
+        <Field id="4" name="打出错误信息" value="0" type="INT" />
+    </Record>
+    <Record id="100" name="文件类型">
+        <Field id="1" name="类型" value="标准CDT主站第1版" type="INT" />
+    </Record>
+</Setting>

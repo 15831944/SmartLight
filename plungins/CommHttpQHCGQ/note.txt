@@ -1,0 +1,31 @@
+清华的传感器规约 rest形式、
+
+
+bool Q_ProtocolDBQH::makeFrame()
+{
+  CURL *curl;
+  CURLcode res;
+
+  curl = curl_easy_init();
+  if(curl) {
+    /* First set the URL that is about to receive our POST. This URL can
+       just as well be a https:// URL if that is what should receive the
+       data. */
+    curl_easy_setopt(curl, CURLOPT_URL, "http://101.132.142.49:5000/realtimepower");
+    /* Now specify the POST data */
+
+	char strDate[60];
+	memset(strDate,0,sizeof(strDate));
+	SYSTEMTIME sysTime;
+	GetLocalTime(sysTime);
+	sprintf(strDate,"date=%4d-%02d-%02d",sysTime.wYear,sysTime.wMonth,sysTime.wDay);
+	printf("get date %s\n",strDate);
+    curl_easy_setopt(curl, CURLOPT_POSTFIELDS, strDate);
+	// 设置接收数据的处理函数和存放变量
+	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
+    /* Perform the request, res will get the return code */
+    res = curl_easy_perform(curl);
+
+    /* always cleanup */
+    curl_easy_cleanup(curl);
+  }

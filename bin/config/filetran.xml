@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <!--说明：Filetran 配置文件-->
+    <Record id="1" name="基本配置">
+        <Field id="1" name="当前站类型" value="2" type="ENUM">
+            <Option id="1" name="主站" />
+            <Option id="2" name="子站" />
+        </Field>
+        <Field id="2" name="本端IP地址" value="127.0.0.1" type="STRING" />
+        <Field id="3" name="端口号" value="5120" type="INT" />
+        <Field id="4" name="读写线程循环时间(毫秒)" value="5" type="INT" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+</Setting>

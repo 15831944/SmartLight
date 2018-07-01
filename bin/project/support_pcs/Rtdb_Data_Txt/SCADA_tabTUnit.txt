@@ -1,0 +1,4 @@
+ID32,uStationID,strID,strName,iType,lFlag,iStationAddr,dvtype,dvno,iStatus,iStatusID,iRecordFlag,iRecordBegin,iRecordEnd,iRecPacketFlg,iRecPromptFlg
+1,1,虚拟通道,虚拟通道,1,1,1,1,1,1,1,0,0,0,0,0
+2,1,采集徐官屯通讯管理机,采集徐官屯通讯管理机,1,1,1,1,1,1,2,0,0,0,0,0
+

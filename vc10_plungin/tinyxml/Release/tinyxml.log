@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/12/12 11:18:07。
+     1>项目“F:\Gkpro\program\ldns\vc10\tinyxml\tinyxml.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\tinyxml.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\tinyxmlInclude /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D WINDOWS_ENV /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\tinyxml\tinystr.cpp ..\..\tinyxml\tinyxml.cpp ..\..\tinyxml\tinyxmlerror.cpp ..\..\tinyxml\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\tinyxml.dll" /NOLOGO /MANIFEST /ManifestFile:"Release\tinyxml.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\Gkpro\program\ldns\bin\tinyxml.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\tinyxml.lib" /MACHINE:X86 /DLL Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+            正在创建库 ..\..\bin\tinyxml.lib 和对象 ..\..\bin\tinyxml.exp
+         正在生成代码
+         已完成代码的生成
+         tinyxml.vcxproj -> F:\Gkpro\program\ldns\vc10\tinyxml\..\..\bin\tinyxml.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\tinyxml.dll;#2" /manifest Release\tinyxml.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\tinyxml.unsuccessfulbuild”。
+         正在对“Release\tinyxml.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Gkpro\program\ldns\vc10\tinyxml\tinyxml.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.64

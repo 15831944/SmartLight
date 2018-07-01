@@ -1,0 +1,124 @@
+<?xml version = "1.0" encoding="gb2312" ?>
+<Setting>
+  <Record id="1" name="参数设置" >
+ <Field id="1" name="调节计算时间间隔" value="9000" remark="t"/> 
+  <!--电压调节死区单位kV-->
+  <Field id="2" name="收敛条件" value="0.15" />
+  <Field id="3" name="下发命令时间间隔" value="1000" />
+  <Field id="4" name="强制调节时间间隔" value="30" />
+  <!--1计划曲线2遥调命令-->
+  <Field id="5" name="AVC目标获取方式" value="2" />
+  <Field id="6" name="AVC参与调节设备优先级" value="2">
+  <Option id="1" name="无功补偿装置、机组、变压器"  />
+  <Option id="2" name="机组、无功补偿装置、变压器"/>
+  </Field>
+  <!--调节无功时，表示每一次调节多少无功(kVar);角度模式时，表示每一次调节多少角度-->
+  <Field id="7" name="每一次调节多少无功(kVar)" value="600" />
+  <Field id="10" name="调节系数" value="2" />
+  <Field id="8" name="日志开关" value="1" /><!-- 0关闭 1打开全部 2记录命令 3记录计算过程 4记录其他 -->
+  <Field id="9" name="主站通讯故障后是否切换本地" value="1" />
+</Record>
+<Record  id="2" name="无功补偿" count="1">
+     <Field id="1" name="是否有效" value="true"  type="STRING"/>
+     <Field id="2" name="额定容量" value="5000"  type="INT" />
+     <Field id="3" name="系统电压" value="35" type="INT"/>
+     <Field id="4" name="调节方式" value="1" type="INT">
+       <Option id="1" name="无功功率"  />
+       <Option id="2" name="按角度调节"/>
+       <Option id="3" name="电压范围"  />
+       <Option id="4" name="功率因数" />
+       <Option id="5" name="比率" />
+     </Field>
+     <Field id="5" name="通道编号" value="2" type="INT" />
+     <Field id="6" name="无功遥测点号" value="861" type="INT" show="true"/>
+     <Field id="7" name="状态遥信点号" value="35" type="INT" show="true"/>
+     <Field id="8" name="设备地址" value="1" type="INT"/>
+     <Field id="9" name="遥控手动与自动切换" value="-1" type="INT" show="true"/>
+     <Field id="10" name="遥控启动点号" value="-1" type="INT" show="true"/>
+     <Field id="11" name="遥控停止点号" value="-1" type="INT" show="true"/>
+     <Field id="12" name="遥控复位点号" value="-1" type="INT" show="true"/>
+     <Field id="13" name="遥调电压上限索引" value="743" type="INT" show="true"/>
+     <Field id="14" name="遥调电压下限索引" value="744" type="INT" show="true"/>
+     <Field id="15" name="遥调功率因数" value="-1" type="INT" show="true"/>
+     <Field id="16" name="遥调无功功率点号" value="1" type="INT" show="true"/>
+     <Field id="17" name="遥调容性无功增益" value="-1" type="INT" show="true"/>
+     <Field id="18" name="遥调感性无功增益" value="-1" type="INT" show="true"/>
+     <Field id="19" name="感性无功最大" value="-5000" type="INT"/>
+     <Field id="20" name="容性无功最大" value="5000" type="INT"/>
+     <Field id="21" name="最小角度" value="-10000" type="INT"/>
+     <Field id="22" name="最大角度" value="10000" type="INT"/>
+     <Field id="23" name="工程实验默认容性最大" value="5000" type="INT"/>
+     <Field id="24" name="工程实验默认感性最大" value="-5000" type="INT"/>
+     <Field id="25" name="无功补偿装置当前角度" value="-1" type="INT"/>
+    <Field id="26" name="角度模式每一次调节角度(单位:度)" value="2000" type="INT"/>
+    <Field id="27" name="角度的系数" value="1" type="INT"/>
+    <Field id="28" name="通道状态遥信索引" value="6" type="INT" show="true"/>
+    <Field id="29" name="SVG故障遥信索引" value="129" type="INT" show="true"/>  
+    <Field id="30" name="无功目标遥测索引" value="547" type="INT" show="true"/>
+    <Field id="31" name="调节上限遥测索引" value="859" type="INT" show="true"/>
+    <Field id="32" name="调节下限遥测索引" value="860" type="INT" show="true"/>
+    <Field id="33" name="上调节闭锁索引(升压)" value="149" type="INT" show="true"/>
+    <Field id="34" name="下调节闭锁索引(降压)" value="150" type="INT" show="true"/>
+    <Field id="35" name="目标指令上送索引" value="666" type="INT" show="true"/>
+    <Field id="36" name="越上限调节闭锁报警" value="675" type="INT" show="true"/>
+    <Field id="37" name="越下限调节闭锁报警" value="675" type="INT" show="true"/>
+</Record>
+
+
+
+
+<Record  id="3" name="逆变器列表" count="40" >
+	<Field id="1"  name="1号逆变器室A逆变器无功输出比例 " device="1" no="2" enabled="true" prating="500" maxlimit="500" minlimit="500" pindex="82" statusindex="10" minAdjust="1" channel="3" factor="1" upadd="1" downsub="1" adtimes="1" dispower="" uplock="" downlock="" sendcmd="421"/>
+	
+	
+</Record>
+  <Record id="4" name="并网参数">
+    <Field   id="1"  name="并网点无功" index = "14"  flag = "0" show="true"/>
+	<!--flag 1为相电压 0为线电压-->
+    <Field   id="2"  name="并网点电压" index = "18"  flag = "0" show="true"/>
+    <Field   id="3"  name="并网点cos"   index ="12"  flag ="0" show="true"/>
+    <Field   id="4"  name="并网点频率"  index = "-1"  flag ="0" show="true"/>  
+    <Field   id="5"   name="电压正常调节范围低限"  index = "537"  flag ="0" show="true"/>
+    <Field   id="6"   name="电压正常调节范围高限"  index = "538"  flag ="0" show="true"/>
+    <Field   id="7"   name="电压高高限"            index = "539"  flag ="0" show="true"/>
+    <Field   id="8"   name="电压低低限"            index = "540"  flag ="0" show="true"/>
+ 　 <Field   id="9"   name="电压控制步长"          index = "541"  flag ="0" show="true"/>
+　  <Field   id="10"  name="电压控制死区"          index = "542"  flag ="0" show="true"/>
+    <Field   id="11"  name="无功控制步长"          index = "543"  flag ="0" show="true"/>
+    <Field   id="12"  name="无功控制死区"          index = "544"  flag ="0" show="true"/>
+    <Field   id="13"  name="无功高高限"            index = "545"  flag ="0" />
+    <Field   id="14"  name="无功低低限"            index = "546"  flag ="0" />
+  </Record>                                                 
+ <Record id="5" name="数据定义">                            
+    <Field id="1" name="AVC远方计划值"          value="524" show="true"/>
+    <Field id="2" name="AVC本地计划值"          value="523" show="true"/>
+    <Field id="3" name="实时目标值"             value="522" show="true"/>
+    <Field id="4" name="参数"                   value="536" show="true"/>  
+  </Record>
+  <Record id="6" name="遥信点定义">
+    <Field id="1" name="AVC投入远方控制"        value="70" show="true"/>
+    <Field id="2" name="AVC投退信号"            value="71" show="true"/>
+    <Field id="3" name="AVC投入闭环控制"        value="72" show="true"/>
+    <Field id="4" name="备用" value="-1" />
+    <Field id="5" name="无功控制闭锁信号"       value="73" show="true"/>
+    <Field id="6" name="AVC上升闭锁"            value="74" show="true"/>
+    <Field id="7" name="AVC下降闭锁"            value="75" show="true"/>
+    <Field id="8" name="主变分接头上调" value="-1" show="true"/>
+    <Field id="9" name="主变分接头下调" value="-1" show="true"/>
+    <Field id="10" name="与主站调度通道状态" value="2" />
+    <Field id="11" name="AVC与主站通讯故障切本地标识" value="8" show="true"/>
+    <Field id="12" name="保护动作退出" value="28" show="true"/>
+    <Field id="13" name="装置异常信号" value="27" show="true"/>
+    <Field id="14" name="系统故障" value="25" show="true"/>
+    <Field id="15" name="系统振荡" value="26" show="true"/>
+  </Record>
+  <Record id="7" name="报警遥信点定义">
+    <Field id="1" name="风场母线电压越上限闭锁" value="108" show="true"/>
+    <Field id="2" name="风场母线电压越下限闭锁" value="109" show="true"/>
+    <Field id="3" name="无功越上限预警" value="110" show="true"/>
+    <Field id="4" name="无功越上限闭锁" value="111" show="true"/>
+    <Field id="3" name="无功越下限预警" value="110" show="true"/>
+    <Field id="4" name="无功越下限闭锁" value="111" show="true"/>
+  </Record>
+</Setting>
+ 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="基本参数">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="主站" />
+        </Field>
+        <Field id="2" name="本端IP地址" value="127.0.0.1" type="STRING" />
+        <Field id="3" name="端口号" value="60112" type="INT" />
+        <Field id="4" name="Redis服务器IP地址" value="192.168.40.21" type="STRING" />
+        <Field id="5" name="访问Redis端口号" value="6379" type="INT" />
+    </Record>
+    <Record id="2" name="站召唤">
+		<Field id="1" name="查询时间间隔单位秒" value="10" type="INT" />
+    </Record>
+</Setting>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31951CF0-480E-40FB-B1E8-FFFB4629CCD8}</ProjectGuid>
+    <RootNamespace>CommIEC104</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Include\commFrameInclude;..\..\..\plungins\Include\IEC104Include;..\..\..\Include\tinyxmlInclude;..\..\..\rtdb\include;..\..\..\scada\include;..\..\..\rtdb\headfile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;COMMIEC104_EXPORTS;__Q_TINYXML_IMPORTING;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CommFrame.lib;tinyxml.lib;RealDB.lib;ScadaProcess.lib;Log.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>CommIEC104.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\Include\commFrameInclude;..\..\..\plungins\Include\IEC104Include;..\..\..\Include\tinyxmlInclude;..\..\..\rtdb\include;..\..\..\scada\include;..\..\..\rtdb\headfile;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;COMMIEC104_EXPORTS;__Q_TINYXML_IMPORTING;WINDOWS_ENV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CommFrame.lib;tinyxml.lib;RealDB.lib;ScadaProcess.lib;Log.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>CommIEC104.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\plungins\CommIEC104\CommIEC104.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_104CP56Time2a.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_104SlaveTask.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_104StandardTags.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_IEC104CommandManager.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_IEC104Setting.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_protocolIEC104.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_protocolIEC104Master.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_ProtocolIEC104Slave.cpp" />
+    <ClCompile Include="..\..\..\plungins\CommIEC104\Q_protocolIEC104SlaveShanDongPlaneCurve.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommIEC104.def" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_protocolIEC104SlaveShanDongPlaneCurve.h" />
+    <ClInclude Include="CommIEC104.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\CommIEC104Def.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_104CP56Time2a.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_104SlaveTask.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_104StandardTags.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_104StdDefine.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104Command.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104CommandManager.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104CommFun.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104Config.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104Setting.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104Types.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_IEC104TypesDef.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_protocolIEC104.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_ProtocolIEC104Master.h" />
+    <ClInclude Include="..\..\..\plungins\Include\IEC104Include\Q_ProtocolIEC104Slave.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommIEC104.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

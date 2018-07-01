@@ -1,0 +1,3 @@
+ID32,strName,iEnabled,strNote
+1,第一个并网点母线分组,1,
+

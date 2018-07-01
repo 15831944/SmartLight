@@ -1,0 +1,7 @@
+ID32,strName,iFlag,iType,uProtocolID,strProtocolPara,strLinkParam,iStatus,iStatusID,tStartTime,strTransFile,iRunAttr
+1,虚拟通道,0,5,0,null,TCP,0,1,2012-6-1 23:30:41,,3
+2,采集电表通道,1,1,16,scqh_httprest.xml,TCP,0,2,2012-6-1 23:37:33,,3
+3,上传到云端,1,1,17,101_master.xml,TCP,0,3,2012-6-1 23:37:33,,3
+4,采集空调数据,1,1,4,modbus_master_hr1.xml,TCP,0,4,2012-6-1 23:37:33,,3
+5,采集智能灯,0,1,4,,TCP,0,5,2012-6-1 23:37:33,,3
+

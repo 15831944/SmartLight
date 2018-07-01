@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RtdbDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF02D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\include" /I "..\headfile" /I "..\..\logmanager\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "WINDOWS_ENV" /FR"..\..\..\..\Debug\Support\RtdbDll/" /Fp"..\..\..\..\Debug\Support\RtdbDll/RtdbDll.pch" /Yu"stdafx.h" /Fo"..\..\..\..\Debug\Support\RtdbDll/" /Fd"..\..\..\..\Debug\Support\RtdbDll/" /FD /GZ /c 
+"D:\e3pro\source\jiazong\rtdb\src\CProject\support\RtdbDll\Formula.cpp"
+"D:\e3pro\source\jiazong\rtdb\src\CProject\support\RtdbDll\ShareMemory.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF02D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF02E.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\..\..\Debug\Support\RtdbDll/RealDB.pdb" /debug /machine:I386 /def:".\RtdbDll.def" /out:"..\..\../../bin\RealDB.dll" /implib:"..\lib/RealDB.lib" /pdbtype:sept /libpath:"..\lib" 
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\BaseSql.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\CmdProcess.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\CmdToRtServer.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ComputerWatch.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DataBase.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DataValue.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DBField.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DBTable.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\EventEx.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\Formula.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\gFunction.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\GoBackOS.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ID32Base.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MsgDealer.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MUdpWorker.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MultiDataBase.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MutexEx.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ProcessEvent.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbDefFile.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbDll.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbFile.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbFtp.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbSql.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ShareMemory.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SocketEx.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\StdAfx.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SysManager.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SystemTable.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpListener.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpReceiver.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpWorker.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ThreadEvent.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ThreadMutex.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\UdpWorker.obj
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbDll.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF02E.tmp"
+<h3>Output Window</h3>
+Compiling...
+Formula.cpp
+ShareMemory.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPFE81.tmp" with contents
+[
+/nologo /o"..\..\..\..\Debug\Support\RtdbDll/RtdbDll.bsc" 
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\StdAfx.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\BaseSql.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\CmdProcess.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\CmdToRtServer.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ComputerWatch.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DataBase.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DataValue.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DBField.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\DBTable.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\EventEx.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\Formula.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\gFunction.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\GoBackOS.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ID32Base.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MsgDealer.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MUdpWorker.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MultiDataBase.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\MutexEx.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ProcessEvent.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbDefFile.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbDll.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbFile.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbFtp.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\RtdbSql.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ShareMemory.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SocketEx.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SysManager.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\SystemTable.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpListener.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpReceiver.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\TcpWorker.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ThreadEvent.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\ThreadMutex.sbr
+\e3pro\source\jiazong\rtdb\Debug\Support\RtdbDll\UdpWorker.sbr]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPFE81.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+RealDB.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Setting>
+    <Version Num="1" Name="NewVersion" >
+	<Project ProjectPath="support" FilePath="Rtdb_Data_Txt"/>
+    </Version>
+</Setting>

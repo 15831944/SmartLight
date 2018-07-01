@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <!--说明：与正泰控制通道一期,使用规约网络cdt-->
+    <Record id="1" name="基本配置">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="主站" />
+            <Option id="2" name="子站" />
+        </Field>
+        <Field id="2" name="本站端站地址" value="1" type="INT" />
+        <Field id="3" name="对端01通道的IP地址" value="127.0.0.1" type="STRING" />
+        <Field id="4" name="对端01通道的端口号" value="2406" type="INT" />
+        <Field id="5" name="对端01通道的站地址" value="1" type="INT" />
+        <Field id="6" name="对端02通道的IP地址" value="127.0.0.1" type="STRING" />
+        <Field id="7" name="对端02通道的端口号" value="2406" type="INT" />
+        <Field id="8" name="对端02通道的站地址" value="1" type="INT" />
+        <Field id="9" name="处理数据间隔(单位:毫秒)" value="10" type="INT" />
+        <Field id="10" name="命令无返回最大超时时间(单位:秒)" value="3" type="INT" />
+        <Field id="11" name="命令无返回处理策略" value="1" type="ENUM">
+            <Option id="1" name="删除命令" />
+        </Field>
+        <Field id="12" name="本站端口" value="6101" type="INT" />
+        <Field id="13" name="最大重发次数" value="2" type="INT" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="1" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+    <Record id="100" name="文件类型">
+    	  <Field id="1" name="类型" value="敦煌CDT多通道规约第1版" type="INT" />
+    </Record>
+</Setting>

@@ -1,0 +1,32 @@
+19:02:30:265, Q_tcpServerLink::acceptClient A new IP:192.168.40.59 connected
+
+19:02:33:551, Q_tcpServerLink IP didn't find in allow list,IP=192.168.40.59 close this socket
+
+19:02:35:658, Q_tcpServerLink::disconnectClient close socket IP=192.168.40.59
+
+19:04:58:134, Q_tcpServerLink::acceptClient A new IP:192.168.40.59 connected
+
+19:04:58:136, Q_tcpServerLink IP didn't find in allow list,IP=192.168.40.59 close this socket
+
+19:04:58:137, Q_tcpServerLink::disconnectClient close socket IP=192.168.40.59
+
+19:17:58:960, Q_tcpServerLink::acceptClient A new IP:192.168.40.59 connected
+
+19:17:58:962, Q_tcpServerLink IP didn't find in allow list,IP=192.168.40.59 close this socket
+
+19:17:58:963, Q_tcpServerLink::disconnectClient close socket IP=192.168.40.59
+
+19:21:40:82, Q_tcpServerLink::acceptClient A new IP:192.168.40.59 connected
+
+19:21:40:83, Q_tcpServerLink IP didn't find in allow list,IP=192.168.40.59 close this socket
+
+19:21:40:85, Q_tcpServerLink::disconnectClient close socket IP=192.168.40.59
+
+19:38:39:350, Q_tcpServerLink::acceptClient A new IP:192.168.40.103 connected
+
+19:39:04:475, Q_tcpServerLink::acceptClient A new IP:192.168.40.59 connected
+
+19:39:04:476, Q_tcpServerLink IP didn't find in allow list,IP=192.168.40.59 close this socket
+
+19:39:04:477, Q_tcpServerLink::disconnectClient close socket IP=192.168.40.59
+

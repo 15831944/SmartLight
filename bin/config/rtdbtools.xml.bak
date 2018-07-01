@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='gb2312'?>
+<Setting>
+  <Version Num="1" Name="NewVersion">
+    <Project FilePath="Rtdb_Data_Txt" ProjectPath="support"/>
+    <FileTran IP="192.168.40.41" Port="10000"/>
+    <GetTableFile DataType="Total" DataFormat="txt"/>
+  </Version>
+</Setting>

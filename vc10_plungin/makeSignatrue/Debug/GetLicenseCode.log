@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016-6-21 14:13:09。
+     1>项目“E:\e3pro2\program\ldns\code\vc10\GetLicenseCode\GetLicenseCode.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\GetLicenseCode.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WINDOWS_ENV /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\GetLicenseCode\main.cpp
+         main.cpp
+     1>e:\e3pro2\program\ldns\code\getlicensecode\main.cpp(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GetLicenseCode.exe.embed.manifest.res" Debug\GetLicenseCode_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\GetLicenseCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GetLicenseCode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\e3pro2\program\ldns\code\bin\GetLicenseCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\GetLicenseCode.lib" /MACHINE:X86 Debug\GetLicenseCode.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GetLicenseCode.exe.embed.manifest" /manifest Debug\GetLicenseCode.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GetLicenseCode.exe.embed.manifest.res" Debug\GetLicenseCode_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\GetLicenseCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GetLicenseCode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\e3pro2\program\ldns\code\bin\GetLicenseCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\GetLicenseCode.lib" /MACHINE:X86 Debug\GetLicenseCode.exe.embed.manifest.res
+         Debug\main.obj
+         GetLicenseCode.vcxproj -> E:\e3pro2\program\ldns\code\vc10\GetLicenseCode\..\..\bin\GetLicenseCode.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GetLicenseCode.unsuccessfulbuild”。
+         正在对“Debug\GetLicenseCode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\e3pro2\program\ldns\code\vc10\GetLicenseCode\GetLicenseCode.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.38

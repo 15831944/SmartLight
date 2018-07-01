@@ -1,0 +1,12 @@
+16:27:31 lookup begin ,lib name=CommIEC104.dll
+
+16:27:31 load begin 
+
+16:27:32 lookup begin ,lib name=IEC104.dll
+
+16:27:32 load begin 
+
+16:27:32 ERROR:LIB: unable to load library: IEC104.dll info: °ùïîz<ÿÿÿÿ¼ùïÇ:|ùï>Zh¸ ûïÈùï
+
+16:27:32 ERROR:LIB: library not loaded, unable to get function pointer free_protocol_object
+

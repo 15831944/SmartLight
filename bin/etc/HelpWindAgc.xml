@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Setting>
+    <Record id="1" name="参数设置">
+        <Field id="1" name="调节计算时间间隔" value="15000" remark="ceshi"/>
+        <Field id="2" name="下发命令时间间隔" value="1000" remark="下发命令"/>
+        <Field id="3" name="强制调节时间间隔" value="30"/>
+        <Field id="4" name="AGC目标获取方式" value="2"/>
+        <Field id="5" name="AGC调节策略" value="3"/>
+        <Field id="6" name="日志开关" value="1"/>
+        <Field id="7" name="负载转移计数" value="5"/>
+        <Field id="8" name="本地控制方式" value="2"/>
+    </Record>
+    <Record id="2" name="风机集群列表" count="2">
+            <Field id="1" name="是否有效" type="STRING" value="true"/>
+            <Field id="2" name="额定容量(kW)" type="INT" value="99000"/>
+            <Field id="3" name="调节误差修正遥测索引" type="INT" value="37" show="true"/>
+            <Field id="4" name="开机容量遥测索引" type="INT" value="800" show="true"/>
+            <Field id="5" name="可调上限遥测索引" type="INT" value="-1" show="true"/>
+            <Field id="6" name="可调下限遥测索引" type="INT" value="-1" show="true"/>
+            <Field id="7" name="机组实际出力遥测索引(或变压器高压侧有功)" type="INT" value="822" show="true"/>
+            <Field id="8" name="上调速率遥测索引" type="INT" value="814" show="true"/>
+            <Field id="9" name="下调速度遥测索引" type="INT" value="814" show="true"/>
+            <Field id="10" name="调节死区(kW)" type="INT" value="1000" show="true"/>
+            <Field id="11" name="通道编号ID" type="INT" value="7"/>
+            <Field id="12" name="站地址" type="INT" value="68"/>
+            <Field id="13" name="控制点号" type="INT" value="24579"/>
+            <Field id="14" name="目标分配遥测索引" type="INT" value="36" show="true"/>
+            <Field id="15" name="通道状态遥信索引" type="INT" value="17" show="true"/>
+            <Field id="16" name="有功控制闭锁遥信索引" type="INT" value="48" show="true"/>
+            <Field id="17" name="上升闭锁遥信索引" type="INT" value="44" show="true"/>
+            <Field id="18" name="下降闭锁遥信索引" type="FLOAT" value="45" show="true"/>
+            <Field id="19" name="风机监控系统故障遥信索引" type="FLOAT" value="27" show="true"/>
+            <Field id="20" name="AGC控制遥信索引" type="FLOAT" value="46" show="true"/>
+            <Field id="21" name="AGC远方投入遥信索引" type="FLOAT" value="47" show="true"/>
+            <Field id="22" name="风机监控有功指令返回值遥测索引" type="INT" value="815" show="true"/>
+    </Record>
+    <Record id="3" name="并网参数">
+    <Field   id="1"  name="并网点有功" index = "1060" flag = "0" show="true"/>
+    <Field   id="2"  name="并网点无功" index = "1061"  flag = "0" show="true"/>
+    <Field   id="3"  name="并网点电压" index = "-1"  flag = "0" show="true"/>
+    <Field   id="4"  name="并网点cos"   index = "-1"  flag = "0" show="true"/>
+    <Field   id="5"  name="并网点频率"  index = "-1"  flag = "0" show="true"/>
+    </Record>
+    <Record id="4" name="遥测索引点定义">
+        <Field id="1" name="AGC远方计划值" value="33" show="true"/>
+        <Field id="2" name="AGC本地计划值" value="34" show="true"/>
+        <Field id="3" name="AGC实时目标值" value="35" show="true"/>
+        <Field id="4" name="AGC实时出力值" value="1060" show="true"/>
+        <Field id="5" name="平均风速" value="77" show="true"/>
+        <Field id="6" name="调节死区" value="26" show="true"/>
+        <Field id="7" name="站内损耗" value="27" show="true"/>
+        <Field id="8" name="AGC有功上限值(最大限值)" value="5" show="true"/>
+        <Field id="9" name="AGC有功下限值(最小限值)" value="7" show="true"/>
+        <Field id="10" name="有功调节指令上限(指令校验使用)" value="24" show="true"/>
+        <Field id="11" name="有功调节指令下限(指令校验使用)" value="25" show="true"/>
+        <Field id="12" name="1分钟调变化率限值" value="22" show="true"/>
+        <Field id="13" name="10分钟变化率限值" value="23" show="true"/>
+        <Field id="14" name="远程转本地误差最大值" value="32" show="true"/>
+    </Record>
+    <Record id="5" name="遥信索引点定义">
+        <Field id="1" name="AGC投入远方控制" value="20" show="true"/>
+        <Field id="2" name="AGC投退信号" value="21" show="true"/>
+        <Field id="3" name="AGC投入闭环控制" value="22" show="true"/>
+        <Field id="4" name="全站紧急切负荷信号" value="23" show="true"/>
+        <Field id="5" name="有功控制闭锁" value="24" show="true"/>
+        <Field id="6" name="AGC上升闭锁" value="25" show="true"/>
+        <Field id="7" name="AGC下降闭锁" value="26" show="true"/>
+        <Field id="8" name="系统震荡" value="-1" show="true"/>
+        <Field id="9" name="系统故障" value="-1" show="true"/>
+        <Field id="10" name="装置异常" value="-1" show="true"/>
+        <Field id="11" name="保护动作退出" value="-1" show="true"/>
+        <Field id="12" name="AGC切本地标识" value="10" show="true"/>
+        <Field id="13" name="检查到当天AGC曲线标志" value="12" show="true"/>
+        <Field id="14" name="上传省调通道状态" value="2" show="true"/>
+        <Field id="15" name="采集综自通道状态" value="1" show="true"/>
+    </Record>
+    <Record id="6" name="报警遥信点定义">
+        <Field id="1" name="有功越上限预警" value="108" show="true"/>
+        <Field id="2" name="有功越上限闭锁" value="109" show="true"/>
+        <Field id="3" name="有功越下限预警" value="110" show="true"/>
+        <Field id="4" name="有功越下限闭锁" value="111" show="true"/>
+    </Record>
+    <Record id="7" name="闭锁原因">
+        <Field id="1" name="有功控制闭锁原因_系统故障" value="130" show="true"/>
+        <Field id="2" name="有功控制闭锁原因_系统震荡" value="131" show="true"/>
+        <Field id="3" name="有功控制闭锁原因_保护动作退出" value="132" show="true"/>
+        <Field id="4" name="有功控制闭锁原因_装置异常闭锁" value="133" show="true"/>
+        <Field id="5" name="有功控制闭锁原因_调度无计划曲线" value="134" show="true"/>
+        <Field id="6" name="有功控制闭锁原因_综自系统断开" value="135" show="true"/>
+        <Field id="7" name="有功控制闭锁原因_某一风机监控通道断开" value="136" show="true"/>
+        <Field id="8" name="有功控制闭锁原因_无本地计划曲线" value="137" show="true"/>
+        <Field id="9" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="10" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="11" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="12" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="13" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="14" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="15" name="有功控制闭锁原因_" value="-1" show="true"/>
+        <Field id="16" name="增有功闭锁原因_当前有功高于调节上限" value="140" show="true"/>
+        <Field id="17" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="18" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="19" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="20" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="21" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="22" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="23" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="24" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="25" name="增有功闭锁原因_" value="-1" show="true"/>
+        <Field id="26" name="减有功闭锁原因_当前有功低于调节下限" value="141" show="true"/>
+        <Field id="27" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="28" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="29" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="30" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="31" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="32" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="33" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="34" name="减有功闭锁原因_" value="-1" show="true"/>
+        <Field id="35" name="减有功闭锁原因_" value="-1" show="true"/>
+    </Record>
+    <Record id="8" name="功能使能对应遥信索引">
+        <Field id="1" name="通道断开AGC是否切换到本地运行" value="30" show="true"/>
+        <Field id="2" name="开启负载转移" value="31" show="true"/>
+        <Field id="3" name="开启1分钟变化率限制" value="32" show="true"/>
+        <Field id="4" name="开启10分钟变化率限制" value="33" show="true"/>
+        <Field id="5" name="AGC指令越高限以高限执行,否则拒绝执行" value="34" show="true"/>
+        <Field id="6" name="控制方式由远程切换到本地，差值过大，拒绝调节" value="35" show="true"/>
+        <Field id="7" name="启用闭锁检查" value="41" show="true"/>
+        <Field id="8" name="启用安全约束检查" value="42" show="true"/>
+    </Record>
+</Setting>

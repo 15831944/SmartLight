@@ -1,0 +1,120 @@
+19:51:42 lookup begin ,lib name=CommIEC104.dll
+
+19:51:42 load begin 
+
+19:51:42 lookup begin ,lib name=CommIEC104.dll
+
+19:51:42 load begin 
+
+19:51:42 lookup begin ,lib name=CommModbusStd.dll
+
+19:51:42 load begin 
+
+19:51:42 ERROR:LIB: unable to load library: CommModbusStd.dll info: ó:
+
+19:51:42 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+19:51:42 lookup begin ,lib name=CommModbusStd.dll
+
+19:51:42 load begin 
+
+19:51:42 ERROR:LIB: unable to load library: CommModbusStd.dll info: ó:
+
+19:51:42 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+19:51:42 lookup begin ,lib name=CommIEC104.dll
+
+19:51:42 load begin 
+
+19:53:26 lookup begin ,lib name=CommIEC104.dll
+
+19:53:26 load begin 
+
+19:53:26 lookup begin ,lib name=CommIEC104.dll
+
+19:53:26 load begin 
+
+19:53:26 lookup begin ,lib name=CommIEC104.dll
+
+19:53:26 load begin 
+
+19:54:01 lookup begin ,lib name=CommIEC104.dll
+
+19:54:01 load begin 
+
+19:54:01 lookup begin ,lib name=CommIEC104.dll
+
+19:54:01 load begin 
+
+19:54:01 lookup begin ,lib name=CommModbusStd.dll
+
+19:54:01 load begin 
+
+19:54:01 ERROR:LIB: unable to load library: CommModbusStd.dll info: `ó%
+
+19:54:01 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+19:54:01 lookup begin ,lib name=CommModbusStd.dll
+
+19:54:01 load begin 
+
+19:54:01 ERROR:LIB: unable to load library: CommModbusStd.dll info: `ó%
+
+19:54:01 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+19:54:01 lookup begin ,lib name=CommIEC104.dll
+
+19:54:01 load begin 
+
+19:55:07 lookup begin ,lib name=CommIEC104.dll
+
+19:55:07 load begin 
+
+19:55:07 lookup begin ,lib name=CommIEC104.dll
+
+19:55:07 load begin 
+
+19:55:07 lookup begin ,lib name=CommIEC104.dll
+
+19:55:07 load begin 
+
+20:05:55 lookup begin ,lib name=CommIEC104.dll
+
+20:05:55 load begin 
+
+20:05:55 lookup begin ,lib name=CommIEC104.dll
+
+20:05:55 load begin 
+
+20:05:55 lookup begin ,lib name=CommModbusStd.dll
+
+20:05:55 load begin 
+
+20:05:55 ERROR:LIB: unable to load library: CommModbusStd.dll info: \ø(
+
+20:05:55 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+20:05:55 lookup begin ,lib name=CommModbusStd.dll
+
+20:05:55 load begin 
+
+20:05:55 ERROR:LIB: unable to load library: CommModbusStd.dll info: \ø(
+
+20:05:55 ERROR:LIB: library not loaded, unable to get function pointer create_protocol_object
+
+20:05:55 lookup begin ,lib name=CommIEC104.dll
+
+20:05:55 load begin 
+
+21:49:15 lookup begin ,lib name=CommIEC104.dll
+
+21:49:15 load begin 
+
+21:49:15 lookup begin ,lib name=CommIEC104.dll
+
+21:49:15 load begin 
+
+21:49:15 lookup begin ,lib name=CommIEC104.dll
+
+21:49:15 load begin 
+

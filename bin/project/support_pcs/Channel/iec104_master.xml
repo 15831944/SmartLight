@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Setting>
+    <Record id="1" name="基本参数">
+        <Field id="1" name="当前站类型" value="1" type="ENUM">
+            <Option id="1" name="主站" />
+            <Option id="2" name="子站" />
+        </Field>
+        <Field id="2" name="本端IP地址" value="" type="STRING" />
+        <Field id="3" name="端口号" value="" type="INT" />
+        <Field id="4" name="对端01通道的IP地址" value="192.168.40.6" type="STRING" />
+        <Field id="5" name="对端01通道的端口号" value="2415" type="INT" />
+        <Field id="6" name="对端02通道的IP地址" value="" type="STRING" />
+        <Field id="7" name="对端02通道的端口号" value="" type="INT" />
+        <Field id="8" name="对端03通道的IP地址" value="" type="STRING" />
+        <Field id="9" name="对端03通道的端口号" value="" type="INT" />
+        <Field id="10" name="对端04通道的IP地址" value="" type="STRING" />
+        <Field id="11" name="对端04通道的端口号" value="" type="INT" />
+        <Field id="20" name="线程读写周期(毫秒)" value="1000" type="INT" />
+        <Field id="122" name="应用层地址长度" value="2" type="INT" />
+        <Field id="123" name="应用层地址" value="1" type="INT" />
+        <Field id="124" name="传输原因长度" value="2" type="INT" />
+        <Field id="125" name="报文最大长度" value="255" type="INT" />
+        <Field id="126" name="开发应用传输策略" value="1" type="ENUM">
+            <Option id="1" name="收到U启动帧即开放应用传输、收到停止帧即关闭应用传输" />
+            <Option id="2" name="TCP连接建立即开放应用传输、TCP连接关闭即关闭应用传输" />
+            <Option id="3" name="收到U启动帧即开放应用传输、TCP连接关闭即关闭应用传输" />
+            <Option id="4" name="TCP连接建立即开放应用传输、收到U停止帧即关闭应用传输" />
+        </Field>
+        <Field id="127" name="帧序号校验策略" value="4" type="ENUM">
+            <Option id="1" name="同时检验发送和接收序号" />
+            <Option id="2" name="只校验本侧发送和对侧接收序号" />
+            <Option id="3" name="只校验本侧接收和对侧发送序号" />
+            <Option id="4" name="不校验发送和接收序号" />
+        </Field>
+        <Field id="128" name="ASDU公共信息校验策略" value="7" type="ENUM">
+            <Option id="1" name="校验VSQ、COT、ADDR" />
+            <Option id="2" name="校验VSQ" />
+            <Option id="3" name="校验COT" />
+            <Option id="4" name="校验ADDR" />
+            <Option id="5" name="校验VSQ、ADDR" />
+            <Option id="6" name="校验COT、ADDR" />
+            <Option id="7" name="不校验" />
+        </Field>
+        <Field id="129" name="整型遥测上送字节顺序" value="1" type="ENUM">
+            <Option id="1" name="从低到高" />
+            <Option id="2" name="从高到低" />
+        </Field>
+        <Field id="130" name="短浮点遥测上送字节顺序" value="1" type="ENUM">
+            <Option id="1" name="从低到高" />
+            <Option id="2" name="从高到低" />
+        </Field>
+        <Field id="131" name="通信中断判断时限(秒)" value="30" type="INT" />
+        <Field id="132" name="超时时间T0应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="发出报文超时T0无确认则关闭TCP连接" />
+        </Field>
+        <Field id="133" name="超时时间T1值(秒)" value="15" type="INT" />
+        <Field id="134" name="超时时间T2应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="无接收超时T2则启动S帧发送" />
+        </Field>
+        <Field id="135" name="超时时间T2值(秒)" value="2" type="INT" />
+        <Field id="136" name="超时时间T3应用逻辑" value="1" type="ENUM">
+            <Option id="1" name="无数据活动超时T3则启动U测试帧发送" />
+        </Field>
+        <Field id="137" name="超时时间T3值(秒)" value="20" type="INT" />
+        <Field id="138" name="I帧发送策略" value="2" type="ENUM">
+            <Option id="1" name="I帧发送不受K值影响" />
+            <Option id="2" name="发出的I帧未被确认数目大于等于K值即停止发送" />
+        </Field>
+        <Field id="139" name="K值" value="12" type="INT" />
+        <Field id="140" name="I帧接收策略" value="1" type="ENUM">
+            <Option id="1" name="收到I帧数目达到W值之前进行确认" />
+            <Option id="1" name="收到I帧后立即确认" />
+        </Field>
+        <Field id="141" name="W值" value="2" type="INT" />
+        <Field id="142" name="I帧最大编号" value="65534" type="INT" />
+        <Field id="143" name="是否发送S帧" value="1" type="INT" />
+        <Field id="144" name="关闭发送启动帧" value="0" type="INT" />
+        <Field id="145" name="关闭发送总召唤" value="0" type="INT" />
+    </Record>
+    <Record id="2" name="站召唤">
+        <Field id="1" name="总召唤数据响应顺序" value="1" type="ENUM">
+            <Option id="1" name="遥信、遥测、遥步" />
+            <Option id="2" name="遥信、遥步、遥测" />
+            <Option id="3" name="遥测、遥信、遥步" />
+            <Option id="4" name="遥测、遥步、遥信" />
+            <Option id="5" name="遥步、遥信、遥测" />
+            <Option id="6" name="遥步、遥测、遥信" />
+        </Field>
+        <Field id="2" name="总召唤遥测ASDU类型" value="3" type="ENUM">
+            <Option id="1" name="ASDU9、规一化值、无时标、有品质" />
+            <Option id="2" name="ASDU11、标度化值、无时标" />
+            <Option id="3" name="ASDU13、短浮点数、无时标" />
+            <Option id="4" name="ASDU21、规一化值、无时标、无品质" />
+        </Field>
+        <Field id="3" name="总召唤遥信ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU1、单点/ASDU3、双点" />
+            <Option id="2" name="ASDU20、带变位检出的成组单点" />
+            <Option id="3" name="ASDU20、带变位检出的成组单点" />
+        </Field>
+        <Field id="4" name="总召唤遥步ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU5、步位置" />
+        </Field>
+        <Field id="5" name="总召唤遥信每帧封装遥信个数" value="100" type="INT" />
+        <Field id="6" name="总召唤遥测每帧封装遥测个数" value="50" type="INT" />
+        <Field id="7" name="总召唤遥步每帧封装遥步个数" value="50" type="INT" />
+        <Field id="8" name="总召间隔次数" value="30" type="INT" />
+    </Record>
+    <Record id="3" name="控制操作">
+        <Field id="1" name="单点遥控命令执行模式" value="1" type="ENUM">
+            <Option id="1" name="标准模式、选择执行" />
+            <Option id="2" name="标准模式、直接执行" />
+        </Field>
+        <Field id="2" name="单点遥控ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU45、单点" />
+        </Field>
+        <Field id="3" name="单点遥控选择过程超时时间(秒)" value="40" type="INT" />
+        <Field id="4" name="单点遥控执行过程超时时间(秒)" value="40" type="INT" />
+        <Field id="5" name="单点遥控撤销过程超时时间(秒)" value="40" type="INT" />
+        <Field id="6" name="单点遥控总过程超时时间(秒)" value="40" type="INT" />
+        <Field id="7" name="单点遥控总过程超时时间(秒)" value="40" type="INT" />
+        <Field id="9" name="单点遥控终止报文上送策略" value="40" type="ENUM">
+            <Option id="1" name="始终上送" />
+            <Option id="2" name="始终不送" />
+            <Option id="3" name="只在遥控成功结束时上送" />
+            <Option id="4" name="只在遥控失败结束时上送" />
+        </Field>
+        <Field id="41" name="遥调命令执行模式" value="1" type="ENUM">
+            <Option id="1" name="标准模式、选择执行" />
+            <Option id="2" name="标准模式、直接执行" />
+        </Field>
+        <Field id="42" name="遥调ASDU类型" value="1" type="ENUM">
+            <Option id="1" name="ASDU47" />
+        </Field>
+        <Field id="43" name="遥调选择过程超时时间(秒)" value="40" type="INT" />
+        <Field id="44" name="遥调执行过程超时时间(秒)" value="40" type="INT" />
+        <Field id="45" name="遥调撤销过程超时时间(秒)" value="40" type="INT" />
+        <Field id="46" name="遥调总过程超时时间(秒)" value="40" type="INT" />
+        <Field id="47" name="遥调总过程超时时间(秒)" value="40" type="INT" />
+        <Field id="48" name="遥调终止报文上送策略" value="3" type="ENUM">
+            <Option id="1" name="始终上送" />
+            <Option id="2" name="始终不送" />
+            <Option id="3" name="只在遥控成功结束时上送" />
+            <Option id="4" name="只在遥控失败结束时上送" />
+        </Field>
+        <Field id="49" name="设置命令ASDU类型" value="3" type="ENUM">
+            <Option id="1" name="ASDU48、规一化值、无限定词" />
+            <Option id="2" name="ASDU49、标度化值、无限定词" />
+            <Option id="3" name="ASDU50、短浮点数、无限定词" />
+            <Option id="4" name="ASDU63、带时标的短浮点数、无限定词" />
+        </Field>
+        <Field id="62" name="设值过程超时时间(秒)" value="40" type="INT" />
+        <Field id="63" name="遥调终止报文上送策略" value="2" type="ENUM">
+            <Option id="1" name="始终上送" />
+            <Option id="2" name="始终不送" />
+        </Field>
+    </Record>
+    <Record id="4" name="时钟同步">
+        <Field id="1" name="时钟同步应用层确认策略" value="1" type="ENUM">
+            <Option id="1" name="以收到的主站时间进行确认" />
+            <Option id="2" name="以收到的主站时间静态补偿后确认" />
+            <Opton id="3" name="以校时前的自有系统时间进行确认" />
+            <Opton id="4" name="以校时后的自有系统时间进行确认" />
+        </Field>
+        <Field id="2" name="时钟同步应用层确认时间静态补偿值(毫秒)" value="10" type="INT" />
+    </Record>
+    <Record id="10" name="调试打印">
+        <Field id="1" name="打印输出全部的通信报文" value="0" type="INT" />
+        <Field id="2" name="打印规约数据解释信息" value="0" type="INT" />
+        <Field id="3" name="打印提示信息" value="0" type="INT" />
+        <Field id="4" name="打印错误信息" value="0" type="INT" />
+    </Record>
+    <Record id="20" name="计划曲线">
+        <Field id="1" name="代表一条曲线的地址" value="0" type="INT" />
+        <Field id="2" name="曲线数据起始地址" value="0" type="INT" />
+        <Field id="3" name="计划曲线信息点个数" value="289" type="INT" />
+        <Field id="4" name="计划曲线存储策略" value="1" type="ENUM">
+            <Option id="1" name="从0时0分到23时55分，共288个点.分配289个地址，第一个地址为该条曲线的地址．" />
+        </Field>
+        <Field id="5" name="每帧传输计划曲线的个数" value="30" type="INT" />
+        <Field id="6" name="召唤数据原则" value="1" type="ENUM">
+            <Option id="1" name="整条曲线、单条曲线" />
+            <Option id="1" name="整条曲线" />
+            <Option id="1" name="整条曲线" />
+        </Field>
+        <Field id="7" name="读数据回答报文" value="1" type="ENUM">
+            <Option id="1" name="ASDU137(带CP56Time2a格式时标)" />
+        </Field>
+        <Field id="8" name="计划曲线每天储存储个数" value="289" type="INT" />
+        <Field id="9" name="计划曲线存储天数" value="1" type="INT" />
+        <Field id="10" name="计划曲线数据库中起始地址" value="400" type="INT" />
+        <Field id="11" name="计划曲线数据库中结束地址" value="1264" type="INT" />
+        <Field id="12" name="计划曲线日期占用字节个数" value="8" type="INT" />
+        <Field id="13" name="计划曲线数据内容开始" value="408" type="INT" />
+        <Field id="14" name="计划曲线数据内容结束" value="697" type="INT" />
+        <Field id="15" name="新的计划曲线标志位遥信索引" value="125" type="INT" />
+        <!--1回复镜像帧 0回复S帧-->
+        <Field id="16" name="收到的计划曲线帧回复镜像帧" value="0" type="INT" />
+    </Record>
+    <Record id="100" name="文件类型">
+        <Field id="1" name="类型" value="104主站第1版" type="INT" />
+    </Record>
+</Setting>

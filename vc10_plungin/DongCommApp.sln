@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommHttpQHCGQ", "plungins\CommHttpQHCGQ\CommHttpQHCGQ.vcxproj", "{D7B4070E-597C-4AB2-A9F7-015D204E473F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommModbusStd", "plungins\CommModbusStd\CommModbusStd.vcxproj", "{6F26C65D-BE88-4DF4-9FF1-BE3D99325549}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommFrame", "CommFrame\CommFrame.vcxproj", "{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RtdbDll", "RtdbDll\RtdbDll.vcxproj", "{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScadaAPI", "ScadaAPI\ScadaAPI.vcxproj", "{96BEDA9C-86AF-4E02-8C4C-19CBCDE7407E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLight01", "plungins\TestLight01\TestLight01.vcxproj", "{67DCD982-F639-43A5-8749-0DA836D111DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7B4070E-597C-4AB2-A9F7-015D204E473F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7B4070E-597C-4AB2-A9F7-015D204E473F}.Debug|Win32.Build.0 = Debug|Win32
+		{D7B4070E-597C-4AB2-A9F7-015D204E473F}.Release|Win32.ActiveCfg = Release|Win32
+		{D7B4070E-597C-4AB2-A9F7-015D204E473F}.Release|Win32.Build.0 = Release|Win32
+		{6F26C65D-BE88-4DF4-9FF1-BE3D99325549}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F26C65D-BE88-4DF4-9FF1-BE3D99325549}.Debug|Win32.Build.0 = Debug|Win32
+		{6F26C65D-BE88-4DF4-9FF1-BE3D99325549}.Release|Win32.ActiveCfg = Release|Win32
+		{6F26C65D-BE88-4DF4-9FF1-BE3D99325549}.Release|Win32.Build.0 = Release|Win32
+		{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}.Debug|Win32.Build.0 = Debug|Win32
+		{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}.Release|Win32.ActiveCfg = Release|Win32
+		{5B5A3E32-24D2-4B7A-A9BE-BFB22592F595}.Release|Win32.Build.0 = Release|Win32
+		{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}.Debug|Win32.Build.0 = Debug|Win32
+		{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}.Release|Win32.ActiveCfg = Release|Win32
+		{C80B85FA-7927-4BCE-A9D6-A5467B02C2DF}.Release|Win32.Build.0 = Release|Win32
+		{96BEDA9C-86AF-4E02-8C4C-19CBCDE7407E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96BEDA9C-86AF-4E02-8C4C-19CBCDE7407E}.Debug|Win32.Build.0 = Debug|Win32
+		{96BEDA9C-86AF-4E02-8C4C-19CBCDE7407E}.Release|Win32.ActiveCfg = Release|Win32
+		{96BEDA9C-86AF-4E02-8C4C-19CBCDE7407E}.Release|Win32.Build.0 = Release|Win32
+		{67DCD982-F639-43A5-8749-0DA836D111DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67DCD982-F639-43A5-8749-0DA836D111DC}.Debug|Win32.Build.0 = Debug|Win32
+		{67DCD982-F639-43A5-8749-0DA836D111DC}.Release|Win32.ActiveCfg = Release|Win32
+		{67DCD982-F639-43A5-8749-0DA836D111DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

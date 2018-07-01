@@ -1,0 +1,816 @@
+08:00:18 lookup begin ,lib name=CommIEC104.dll
+
+08:00:18 load begin 
+
+08:00:18 lookup begin ,lib name=CommModbusStd.dll
+
+08:00:18 load begin 
+
+08:00:18 lookup begin ,lib name=CommModbusStd.dll
+
+08:00:18 load begin 
+
+08:00:18 lookup begin ,lib name=CommModbusStd.dll
+
+08:00:18 load begin 
+
+08:34:49 lookup begin ,lib name=CommIEC104.dll
+
+08:34:49 load begin 
+
+08:34:49 lookup begin ,lib name=CommModbusStd.dll
+
+08:34:49 load begin 
+
+08:34:49 lookup begin ,lib name=CommModbusStd.dll
+
+08:34:49 load begin 
+
+08:34:49 lookup begin ,lib name=CommModbusStd.dll
+
+08:34:49 load begin 
+
+08:35:16 lookup begin ,lib name=CommIEC104.dll
+
+08:35:16 load begin 
+
+08:35:16 lookup begin ,lib name=CommModbusStd.dll
+
+08:35:16 load begin 
+
+08:35:16 lookup begin ,lib name=CommModbusStd.dll
+
+08:35:16 load begin 
+
+08:35:16 lookup begin ,lib name=CommModbusStd.dll
+
+08:35:16 load begin 
+
+08:42:27 lookup begin ,lib name=CommIEC104.dll
+
+08:42:27 load begin 
+
+08:42:27 lookup begin ,lib name=CommModbusStd.dll
+
+08:42:27 load begin 
+
+08:42:27 lookup begin ,lib name=CommModbusStd.dll
+
+08:42:27 load begin 
+
+08:42:27 lookup begin ,lib name=CommModbusStd.dll
+
+08:42:27 load begin 
+
+08:44:31 lookup begin ,lib name=CommIEC104.dll
+
+08:44:31 load begin 
+
+08:44:31 lookup begin ,lib name=CommModbusStd.dll
+
+08:44:31 load begin 
+
+08:44:31 lookup begin ,lib name=CommModbusStd.dll
+
+08:44:31 load begin 
+
+08:44:31 lookup begin ,lib name=CommModbusStd.dll
+
+08:44:31 load begin 
+
+08:46:43 lookup begin ,lib name=CommModbusStd.dll
+
+08:46:43 load begin 
+
+08:54:59 lookup begin ,lib name=CommModbusStd.dll
+
+08:54:59 load begin 
+
+09:00:19 lookup begin ,lib name=CommModbusStd.dll
+
+09:00:19 load begin 
+
+09:00:53 lookup begin ,lib name=CommModbusStd.dll
+
+09:00:53 load begin 
+
+09:07:45 lookup begin ,lib name=CommModbusStd.dll
+
+09:07:45 load begin 
+
+09:08:45 lookup begin ,lib name=CommModbusStd.dll
+
+09:08:45 load begin 
+
+09:09:16 lookup begin ,lib name=CommModbusStd.dll
+
+09:09:16 load begin 
+
+09:09:47 lookup begin ,lib name=CommModbusStd.dll
+
+09:09:47 load begin 
+
+09:11:19 lookup begin ,lib name=CommModbusStd.dll
+
+09:11:19 load begin 
+
+09:12:19 lookup begin ,lib name=CommModbusStd.dll
+
+09:12:19 load begin 
+
+09:12:50 lookup begin ,lib name=CommModbusStd.dll
+
+09:12:50 load begin 
+
+09:16:11 lookup begin ,lib name=CommModbusStd.dll
+
+09:16:11 load begin 
+
+09:17:12 lookup begin ,lib name=CommModbusStd.dll
+
+09:17:12 load begin 
+
+09:17:42 lookup begin ,lib name=CommModbusStd.dll
+
+09:17:42 load begin 
+
+09:18:13 lookup begin ,lib name=CommModbusStd.dll
+
+09:18:13 load begin 
+
+09:22:34 lookup begin ,lib name=CommModbusStd.dll
+
+09:22:34 load begin 
+
+09:23:35 lookup begin ,lib name=CommModbusStd.dll
+
+09:23:35 load begin 
+
+09:24:36 lookup begin ,lib name=CommModbusStd.dll
+
+09:24:36 load begin 
+
+09:25:07 lookup begin ,lib name=CommModbusStd.dll
+
+09:25:07 load begin 
+
+09:25:07 lookup begin ,lib name=CommModbusStd.dll
+
+09:25:07 load begin 
+
+09:27:09 lookup begin ,lib name=CommModbusStd.dll
+
+09:27:09 load begin 
+
+09:28:10 lookup begin ,lib name=CommModbusStd.dll
+
+09:28:10 load begin 
+
+09:29:11 lookup begin ,lib name=CommModbusStd.dll
+
+09:29:11 load begin 
+
+09:29:41 lookup begin ,lib name=CommModbusStd.dll
+
+09:29:41 load begin 
+
+09:30:12 lookup begin ,lib name=CommModbusStd.dll
+
+09:30:12 load begin 
+
+09:38:00 lookup begin ,lib name=CommModbusStd.dll
+
+09:38:00 load begin 
+
+09:39:26 lookup begin ,lib name=CommModbusStd.dll
+
+09:39:26 load begin 
+
+09:40:57 lookup begin ,lib name=CommModbusStd.dll
+
+09:40:57 load begin 
+
+09:40:57 lookup begin ,lib name=CommModbusStd.dll
+
+09:40:57 load begin 
+
+09:41:58 lookup begin ,lib name=CommModbusStd.dll
+
+09:41:58 load begin 
+
+09:42:59 lookup begin ,lib name=CommModbusStd.dll
+
+09:42:59 load begin 
+
+09:43:29 lookup begin ,lib name=CommModbusStd.dll
+
+09:43:29 load begin 
+
+09:43:30 lookup begin ,lib name=CommModbusStd.dll
+
+09:43:30 load begin 
+
+09:55:35 lookup begin ,lib name=CommModbusStd.dll
+
+09:55:35 load begin 
+
+09:56:39 lookup begin ,lib name=CommModbusStd.dll
+
+09:56:39 load begin 
+
+10:13:27 lookup begin ,lib name=CommModbusStd.dll
+
+10:13:27 load begin 
+
+10:14:10 lookup begin ,lib name=CommModbusStd.dll
+
+10:14:10 load begin 
+
+10:14:10 lookup begin ,lib name=CommModbusStd.dll
+
+10:14:10 load begin 
+
+10:15:11 lookup begin ,lib name=CommModbusStd.dll
+
+10:15:11 load begin 
+
+10:15:12 lookup begin ,lib name=CommModbusStd.dll
+
+10:15:12 load begin 
+
+10:16:12 lookup begin ,lib name=CommModbusStd.dll
+
+10:16:12 load begin 
+
+10:17:13 lookup begin ,lib name=CommModbusStd.dll
+
+10:17:13 load begin 
+
+10:17:13 lookup begin ,lib name=CommModbusStd.dll
+
+10:17:13 load begin 
+
+10:17:43 lookup begin ,lib name=CommModbusStd.dll
+
+10:17:43 load begin 
+
+10:36:06 lookup begin ,lib name=CommModbusStd.dll
+
+10:36:06 load begin 
+
+10:37:06 lookup begin ,lib name=CommModbusStd.dll
+
+10:37:06 load begin 
+
+10:38:07 lookup begin ,lib name=CommModbusStd.dll
+
+10:38:07 load begin 
+
+10:39:07 lookup begin ,lib name=CommModbusStd.dll
+
+10:39:07 load begin 
+
+10:39:07 lookup begin ,lib name=CommModbusStd.dll
+
+10:39:07 load begin 
+
+10:40:08 lookup begin ,lib name=CommModbusStd.dll
+
+10:40:08 load begin 
+
+10:40:39 lookup begin ,lib name=CommModbusStd.dll
+
+10:40:39 load begin 
+
+10:43:10 lookup begin ,lib name=CommModbusStd.dll
+
+10:43:10 load begin 
+
+10:44:11 lookup begin ,lib name=CommModbusStd.dll
+
+10:44:11 load begin 
+
+10:45:12 lookup begin ,lib name=CommModbusStd.dll
+
+10:45:12 load begin 
+
+10:45:12 lookup begin ,lib name=CommModbusStd.dll
+
+10:45:12 load begin 
+
+10:46:12 lookup begin ,lib name=CommModbusStd.dll
+
+10:46:12 load begin 
+
+10:47:13 lookup begin ,lib name=CommModbusStd.dll
+
+10:47:13 load begin 
+
+10:47:13 lookup begin ,lib name=CommModbusStd.dll
+
+10:47:13 load begin 
+
+10:47:44 lookup begin ,lib name=CommModbusStd.dll
+
+10:47:44 load begin 
+
+10:56:49 lookup begin ,lib name=CommModbusStd.dll
+
+10:56:49 load begin 
+
+10:57:19 lookup begin ,lib name=CommModbusStd.dll
+
+10:57:19 load begin 
+
+10:58:20 lookup begin ,lib name=CommModbusStd.dll
+
+10:58:20 load begin 
+
+10:58:51 lookup begin ,lib name=CommModbusStd.dll
+
+10:58:51 load begin 
+
+11:01:23 lookup begin ,lib name=CommModbusStd.dll
+
+11:01:23 load begin 
+
+11:01:53 lookup begin ,lib name=CommModbusStd.dll
+
+11:01:53 load begin 
+
+11:29:06 lookup begin ,lib name=CommModbusStd.dll
+
+11:29:06 load begin 
+
+11:30:07 lookup begin ,lib name=CommModbusStd.dll
+
+11:30:07 load begin 
+
+12:00:42 lookup begin ,lib name=CommModbusStd.dll
+
+12:00:42 load begin 
+
+12:00:42 lookup begin ,lib name=CommModbusStd.dll
+
+12:00:42 load begin 
+
+12:00:42 lookup begin ,lib name=CommModbusStd.dll
+
+12:00:42 load begin 
+
+12:03:36 lookup begin ,lib name=CommModbusStd.dll
+
+12:03:36 load begin 
+
+12:03:36 lookup begin ,lib name=CommModbusStd.dll
+
+12:03:36 load begin 
+
+12:04:07 lookup begin ,lib name=CommModbusStd.dll
+
+12:04:07 load begin 
+
+12:04:37 lookup begin ,lib name=CommModbusStd.dll
+
+12:04:37 load begin 
+
+14:36:06 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:06 load begin 
+
+14:36:06 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:06 load begin 
+
+14:36:06 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:06 load begin 
+
+14:36:36 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:36 load begin 
+
+14:36:36 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:36 load begin 
+
+14:36:37 lookup begin ,lib name=CommModbusStd.dll
+
+14:36:37 load begin 
+
+14:38:07 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:07 load begin 
+
+14:38:08 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:08 load begin 
+
+14:38:08 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:08 load begin 
+
+14:38:38 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:38 load begin 
+
+14:38:38 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:38 load begin 
+
+14:38:38 lookup begin ,lib name=CommModbusStd.dll
+
+14:38:38 load begin 
+
+14:39:39 lookup begin ,lib name=CommModbusStd.dll
+
+14:39:39 load begin 
+
+14:40:39 lookup begin ,lib name=CommModbusStd.dll
+
+14:40:39 load begin 
+
+14:40:40 lookup begin ,lib name=CommModbusStd.dll
+
+14:40:40 load begin 
+
+14:40:40 lookup begin ,lib name=CommModbusStd.dll
+
+14:40:40 load begin 
+
+14:42:11 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:11 load begin 
+
+14:42:11 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:11 load begin 
+
+14:42:11 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:11 load begin 
+
+14:42:41 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:41 load begin 
+
+14:42:41 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:41 load begin 
+
+14:42:42 lookup begin ,lib name=CommModbusStd.dll
+
+14:42:42 load begin 
+
+14:52:09 lookup begin ,lib name=CommModbusStd.dll
+
+14:52:09 load begin 
+
+14:53:16 lookup begin ,lib name=CommModbusStd.dll
+
+14:53:16 load begin 
+
+14:53:17 lookup begin ,lib name=CommModbusStd.dll
+
+14:53:17 load begin 
+
+14:53:17 lookup begin ,lib name=CommModbusStd.dll
+
+14:53:17 load begin 
+
+14:54:17 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:17 load begin 
+
+14:54:18 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:18 load begin 
+
+14:54:18 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:18 load begin 
+
+14:54:48 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:48 load begin 
+
+14:54:48 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:48 load begin 
+
+14:54:48 lookup begin ,lib name=CommModbusStd.dll
+
+14:54:48 load begin 
+
+14:56:19 lookup begin ,lib name=CommModbusStd.dll
+
+14:56:19 load begin 
+
+14:56:20 lookup begin ,lib name=CommModbusStd.dll
+
+14:56:20 load begin 
+
+14:56:20 lookup begin ,lib name=CommModbusStd.dll
+
+14:56:20 load begin 
+
+14:57:20 lookup begin ,lib name=CommModbusStd.dll
+
+14:57:20 load begin 
+
+14:57:20 lookup begin ,lib name=CommModbusStd.dll
+
+14:57:20 load begin 
+
+14:57:21 lookup begin ,lib name=CommModbusStd.dll
+
+14:57:21 load begin 
+
+14:58:21 lookup begin ,lib name=CommModbusStd.dll
+
+14:58:21 load begin 
+
+14:58:52 lookup begin ,lib name=CommModbusStd.dll
+
+14:58:52 load begin 
+
+15:02:24 lookup begin ,lib name=CommModbusStd.dll
+
+15:02:24 load begin 
+
+15:02:54 lookup begin ,lib name=CommModbusStd.dll
+
+15:02:54 load begin 
+
+15:08:58 lookup begin ,lib name=CommModbusStd.dll
+
+15:08:58 load begin 
+
+15:11:29 lookup begin ,lib name=CommModbusStd.dll
+
+15:11:29 load begin 
+
+15:11:29 lookup begin ,lib name=CommModbusStd.dll
+
+15:11:29 load begin 
+
+15:18:45 lookup begin ,lib name=CommModbusStd.dll
+
+15:18:45 load begin 
+
+15:19:15 lookup begin ,lib name=CommModbusStd.dll
+
+15:19:15 load begin 
+
+15:23:16 lookup begin ,lib name=CommModbusStd.dll
+
+15:23:16 load begin 
+
+15:25:47 lookup begin ,lib name=CommModbusStd.dll
+
+15:25:47 load begin 
+
+15:25:48 lookup begin ,lib name=CommModbusStd.dll
+
+15:25:48 load begin 
+
+15:30:20 lookup begin ,lib name=CommModbusStd.dll
+
+15:30:20 load begin 
+
+15:30:51 lookup begin ,lib name=CommModbusStd.dll
+
+15:30:51 load begin 
+
+15:32:22 lookup begin ,lib name=CommModbusStd.dll
+
+15:32:22 load begin 
+
+15:34:54 lookup begin ,lib name=CommModbusStd.dll
+
+15:34:54 load begin 
+
+15:35:55 lookup begin ,lib name=CommModbusStd.dll
+
+15:35:55 load begin 
+
+15:36:25 lookup begin ,lib name=CommModbusStd.dll
+
+15:36:25 load begin 
+
+15:40:57 lookup begin ,lib name=CommModbusStd.dll
+
+15:40:57 load begin 
+
+15:42:28 lookup begin ,lib name=CommModbusStd.dll
+
+15:42:28 load begin 
+
+15:45:30 lookup begin ,lib name=CommModbusStd.dll
+
+15:45:30 load begin 
+
+15:47:32 lookup begin ,lib name=CommModbusStd.dll
+
+15:47:32 load begin 
+
+15:48:02 lookup begin ,lib name=CommModbusStd.dll
+
+15:48:02 load begin 
+
+15:52:34 lookup begin ,lib name=CommModbusStd.dll
+
+15:52:34 load begin 
+
+17:15:30 lookup begin ,lib name=CommModbusStd.dll
+
+17:15:30 load begin 
+
+17:17:00 lookup begin ,lib name=CommModbusStd.dll
+
+17:17:00 load begin 
+
+17:18:01 lookup begin ,lib name=CommModbusStd.dll
+
+17:18:01 load begin 
+
+17:22:04 lookup begin ,lib name=CommModbusStd.dll
+
+17:22:04 load begin 
+
+17:22:04 lookup begin ,lib name=CommModbusStd.dll
+
+17:22:04 load begin 
+
+17:22:04 lookup begin ,lib name=CommModbusStd.dll
+
+17:22:04 load begin 
+
+17:32:54 lookup begin ,lib name=CommModbusStd.dll
+
+17:32:54 load begin 
+
+17:35:24 lookup begin ,lib name=CommModbusStd.dll
+
+17:35:24 load begin 
+
+17:35:25 lookup begin ,lib name=CommModbusStd.dll
+
+17:35:25 load begin 
+
+17:35:55 lookup begin ,lib name=CommModbusStd.dll
+
+17:35:55 load begin 
+
+17:36:55 lookup begin ,lib name=CommModbusStd.dll
+
+17:36:55 load begin 
+
+17:39:48 lookup begin ,lib name=CommModbusStd.dll
+
+17:39:48 load begin 
+
+17:40:48 lookup begin ,lib name=CommModbusStd.dll
+
+17:40:48 load begin 
+
+17:41:18 lookup begin ,lib name=CommModbusStd.dll
+
+17:41:18 load begin 
+
+17:43:20 lookup begin ,lib name=CommModbusStd.dll
+
+17:43:20 load begin 
+
+17:43:51 lookup begin ,lib name=CommModbusStd.dll
+
+17:43:51 load begin 
+
+17:46:22 lookup begin ,lib name=CommModbusStd.dll
+
+17:46:22 load begin 
+
+17:47:23 lookup begin ,lib name=CommModbusStd.dll
+
+17:47:23 load begin 
+
+17:48:54 lookup begin ,lib name=CommModbusStd.dll
+
+17:48:54 load begin 
+
+17:48:54 lookup begin ,lib name=CommModbusStd.dll
+
+17:48:54 load begin 
+
+17:48:54 lookup begin ,lib name=CommModbusStd.dll
+
+17:48:54 load begin 
+
+17:51:00 lookup begin ,lib name=CommModbusStd.dll
+
+17:51:00 load begin 
+
+17:52:31 lookup begin ,lib name=CommModbusStd.dll
+
+17:52:31 load begin 
+
+17:53:01 lookup begin ,lib name=CommModbusStd.dll
+
+17:53:01 load begin 
+
+17:53:01 lookup begin ,lib name=CommModbusStd.dll
+
+17:53:01 load begin 
+
+17:53:32 lookup begin ,lib name=CommModbusStd.dll
+
+17:53:32 load begin 
+
+17:56:41 lookup begin ,lib name=CommModbusStd.dll
+
+17:56:41 load begin 
+
+17:59:59 lookup begin ,lib name=CommModbusStd.dll
+
+17:59:59 load begin 
+
+18:00:59 lookup begin ,lib name=CommModbusStd.dll
+
+18:00:59 load begin 
+
+18:01:00 lookup begin ,lib name=CommModbusStd.dll
+
+18:01:00 load begin 
+
+18:10:23 lookup begin ,lib name=CommModbusStd.dll
+
+18:10:23 load begin 
+
+18:10:23 lookup begin ,lib name=CommModbusStd.dll
+
+18:10:23 load begin 
+
+18:10:23 lookup begin ,lib name=CommModbusStd.dll
+
+18:10:23 load begin 
+
+18:11:24 lookup begin ,lib name=CommModbusStd.dll
+
+18:11:24 load begin 
+
+18:11:54 lookup begin ,lib name=CommModbusStd.dll
+
+18:11:54 load begin 
+
+18:11:54 lookup begin ,lib name=CommModbusStd.dll
+
+18:11:54 load begin 
+
+18:12:25 lookup begin ,lib name=CommModbusStd.dll
+
+18:12:25 load begin 
+
+18:12:55 lookup begin ,lib name=CommModbusStd.dll
+
+18:12:55 load begin 
+
+18:13:56 lookup begin ,lib name=CommModbusStd.dll
+
+18:13:56 load begin 
+
+18:13:56 lookup begin ,lib name=CommModbusStd.dll
+
+18:13:56 load begin 
+
+18:13:56 lookup begin ,lib name=CommModbusStd.dll
+
+18:13:56 load begin 
+
+18:20:30 lookup begin ,lib name=CommModbusStd.dll
+
+18:20:30 load begin 
+
+18:20:31 lookup begin ,lib name=CommModbusStd.dll
+
+18:20:31 load begin 
+
+18:20:31 lookup begin ,lib name=CommModbusStd.dll
+
+18:20:31 load begin 
+
+22:53:08 lookup begin ,lib name=CommIEC104.dll
+
+22:53:08 load begin 
+
+22:53:08 lookup begin ,lib name=CommModbusStd.dll
+
+22:53:08 load begin 
+
+22:53:08 lookup begin ,lib name=CommModbusStd.dll
+
+22:53:08 load begin 
+
+22:53:08 lookup begin ,lib name=CommModbusStd.dll
+
+22:53:08 load begin 
+

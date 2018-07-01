@@ -1,0 +1,143 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Log"=..\Log\Log.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RealDBJNI"=..\RealDBJNI\RealDBJNI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Log
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbConfig
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name spreadsheet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtServer
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RtServer"="..\RtServer-Qt\RtServer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Log
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbConfig
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RtdbConfig"=..\RtdbConfig\RtdbConfig.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RtdbDll
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RtdbDll"=.\RtdbDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Log
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ScadaAPI"=..\..\scada\ScadaAPI\ScadaAPI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "spreadsheet"=..\spreadsheet\spreadsheet.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Log
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbConfig
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtdbDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RtServer
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

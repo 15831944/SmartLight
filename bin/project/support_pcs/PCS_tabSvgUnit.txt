@@ -1,0 +1,4 @@
+ID32,strName,iStatus,fValQ,fDisQ,fUpVal,tExecTime,iChannelStatus,iUpLock,iDownLock,iSvgExp,iFlag,tSnapTime,iEnabled,fCapacity,fAdMaxLimit,fAdMinLimit,iType,iGroup,fRateVolt,iChannelID,iDevice,iYtNo,fYtFactor,iStatusDigitID,iChannelDigitID,iSvgExpDigitID,iUpBlockDigitID,iDownBlockDigitID,iQAlgID,iLimitSource,iAdMaxLimitAlgID,iAdMinLimitAlgID,iCmdBaseValSource,iUpValAlgID,iDisQAlgID,iQuality
+1,一期SVG装置,1,12.300000,3.200000,2.000000,2015-1-1 0:0:0,1,0,0,0,0,2016-2-19 17:19:46,1,10000,2500,-2000,1,1,35.000000,3,1,25089,1.000000,81,3,83,92,93,80,1,0,0,1,1244,1246,0
+2,二期SVG装置,1,0.000000,0.000000,0.000000,2015-1-1 0:0:0,1,0,0,0,0,2016-2-19 17:19:46,1,6200,2000,-1000,1,1,35.000000,3,1,25090,1.000000,87,3,89,94,95,85,1,0,0,1,1245,1247,0
+

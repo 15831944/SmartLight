@@ -1,0 +1,19 @@
+#ifndef __Q_MODBUS_TCP_SERVERSTANDARD_DEF_H_
+#define __Q_MODBUS_TCP_SERVERSTANDARD_DEF_H_
+
+#ifdef WINDOWS_ENV
+
+#ifdef __Q_COMMMODBUSTCPSERVERSTANDARD_IMPORTING
+#define __Q_COMMMODBUSTCPSERVERSTANDARD_EXPORT    __declspec(dllimport)
+#else
+#define __Q_COMMMODBUSTCPSERVERSTANDARD_EXPORT    __declspec(dllexport)
+#endif
+
+#endif
+
+
+#ifdef UNIX_ENV
+#define   __Q_COMMMODBUSTCPSERVERSTANDARD_EXPORT 
+#endif
+
+#endif

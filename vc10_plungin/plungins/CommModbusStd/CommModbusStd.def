@@ -1,0 +1,13 @@
+; CommModbusStd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CommModbusStd"
+
+SECTIONS
+
+EXPORTS
+    ; Explicit exports can go here
+	mod_init
+	create_protocol_object
+    free_protocol_object
+    add_command
+	print_change_log
